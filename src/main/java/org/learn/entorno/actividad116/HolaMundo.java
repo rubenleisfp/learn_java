@@ -1,4 +1,4 @@
-package org.example.entorno.actividad116;
+package org.learn.entorno.actividad116;
 
 public class HolaMundo {
 
