@@ -1,6 +1,6 @@
 package org.learn.clases.actividad301;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Crear un objeto de tipo Circulo con un radio de 5
         Circulo circulo = new Circulo(5.0);

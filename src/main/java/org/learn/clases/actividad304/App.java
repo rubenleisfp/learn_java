@@ -1,6 +1,6 @@
 package org.learn.clases.actividad304;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) {
         // Crear una instancia de NaveEspacial con límites definidos

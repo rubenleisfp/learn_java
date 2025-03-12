@@ -11,7 +11,7 @@ public class ServicioArtistas {
         artistaList = new ArrayList<>();
     }
 
-    public void anhadirArtista(String nuevoArtista) {
+    public void agregarArtista(String nuevoArtista) {
         artistaList.add(nuevoArtista);
     }
 
@@ -20,7 +20,6 @@ public class ServicioArtistas {
             System.out.println(artista);
         }
     }
-
 
     public boolean eliminarArtista(String artistaEliminar) {
         if (artistaList.contains(artistaEliminar)) {
@@ -33,7 +32,7 @@ public class ServicioArtistas {
         }
     }
 
-    public  boolean actualizarArtista(String artistaActualizar, String nuevoNombre) {
+    public boolean actualizarArtista(String artistaActualizar, String nuevoNombre) {
         if (artistaList.contains(artistaActualizar)) {
             int index = artistaList.indexOf(artistaActualizar);
             artistaList.set(index, nuevoNombre);
@@ -43,8 +42,4 @@ public class ServicioArtistas {
 
         }
     }
-
-
-
-
 }

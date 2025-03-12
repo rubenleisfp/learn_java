@@ -29,7 +29,7 @@ public class AppArtistasServicio {
                     System.out.print("Ingrese el nombre del nuevo artista: ");
                     // Utiliza nextLine() para leer la línea completa
                     String nuevoArtista = scanner.nextLine();
-                    servicioArtistas.anhadirArtista(nuevoArtista);
+                    servicioArtistas.agregarArtista(nuevoArtista);
                     break;
                 case 2:
                     System.out.println("Lista de artistas:");
