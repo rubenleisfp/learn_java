@@ -18,13 +18,13 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [Algoritmo y diagrama de flujo](https://www.youtube.com/watch?v=SZTXmCbfjP0&ab_channel=CompilaTec)
 - [Diagramas de flujo](https://www.youtube.com/watch?v=1frV9cIgAow&list=PL46-B5QR6sHm_qTw3tet7XHynE8bEucoa&index=8&ab_channel=EstudiaConMarisol)
 
-### Algoritmos
+#### Algoritmos
 
 - [Curso de Algoritmos desde Cero](https://www.udemy.com/course/algoritmos-desde-cero/)
 - [Libro de Algoritmos](https://editorial.uaa.mx/docs/algoritmos.pdf)
 - [Video sobre Algoritmos](https://www.youtube.com/watch?v=SZTXmCbfjP0&ab_channel=CompilaTec)
 
-### Diagramas de Flujo
+#### Diagramas de Flujo
 
 - [Receta de Cocina](https://www.diagramadeflujo.net/receta-de-cocina/)
 - [Control de Flujo](http://lsi.vc.ehu.es/asignaturas/Inf_Bas/2005-06/comun/04%20Control%20flujo.pdf)
