@@ -13,46 +13,23 @@ public class NaveEspacial {
 
     public NaveEspacial(int xMax, int xMin, int yMin, int yMax) {
         super();
-        this.xMax = xMax;
-        this.xMin = xMin;
-        this.yMin = yMin;
-        this.yMax = yMax;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean moverDerecha() {
-        if (x < xMax) {
-            x++;
-            return true;
-        } else {
-            return false;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean moverIzquierda() {
-        if (x > xMin) {
-            x--;
-            return true;
-        } else {
-            return false;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean moverArriba() {
-        if (y < yMax) {
-            y++;
-            return true;
-        } else {
-            return false;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean moverAbajo() {
-        if (y > yMin) {
-            y--;
-            return true;
-        } else {
-            return false;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     
 

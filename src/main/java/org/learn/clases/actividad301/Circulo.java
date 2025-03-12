@@ -6,17 +6,17 @@ public class Circulo {
 
     // Constructor
     public Circulo(double radio) {
-        this.radio = radio;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Método para calcular el perímetro (circunferencia)
     public double calcularPerimetro() {
-        return 2 * Math.PI * radio;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Método para calcular el área
     public double calcularArea() {
-        return Math.PI * Math.pow(radio, 2);
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Método getter para obtener el radio

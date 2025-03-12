@@ -5,18 +5,12 @@ public class CuentaAvanzada {
 
     // Constructor con titular obligatorio y cantidad opcional
     public CuentaAvanzada(String titular) {
-        this.titular = titular;
-        this.cantidad = 0;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Constructor con titular y cantidad
     public CuentaAvanzada(String titular, double cantidad) {
-        this.titular = titular;
-        if (cantidad >= 0) {
-            this.cantidad = cantidad;
-        } else {
-            this.cantidad = 0;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Métodos getter y setter
@@ -40,26 +34,17 @@ public class CuentaAvanzada {
 
     // Método para ingresar dinero en la cuenta
     public void ingresar(double cantidad) {
-        if (cantidad > 0) {
-            this.cantidad += cantidad;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     
     // Método para ingresar dinero en la cuenta
     public void transferencia(double cantidad, CuentaAvanzada cuentaDestino) {
-       if (this.tieneSaldo(cantidad)) {
-    	   this.retirar(cantidad);
-       	   cuentaDestino.ingresar(cantidad);
-       }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     // Método para retirar dinero de la cuenta
     public void retirar(double cantidad) {
-        if (tieneSaldo(cantidad)) {
-            this.cantidad -= cantidad;
-        } else {
-            this.cantidad = 0;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
 	private boolean tieneSaldo(double cantidad) {

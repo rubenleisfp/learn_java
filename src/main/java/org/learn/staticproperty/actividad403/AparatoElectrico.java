@@ -6,25 +6,18 @@ public class AparatoElectrico {
     private boolean encendido;
     
     public AparatoElectrico(double potencia) {
-        this.potencia = potencia;
-        encendido=false;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     
     static double consumo(){
-        return consumoTotal;
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     
     void enciende(){
-        if(!encendido){
-            encendido=true;
-            consumoTotal+=potencia;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     void apaga(){
-        if(encendido){
-            encendido= false;
-            consumoTotal-=potencia;
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
     
 
