@@ -280,15 +280,6 @@ Salida esperada:
 - 8 x 3 = 24
 - ...
 - 8 x 10 = 80
-Ejemplo de salida:
-Ingrese un número: 8
-Salida esperada :
-8 x 1 = 8
-8 x 2 = 16
-8 x 3 = 24
-...
-8 x 10 = 80
-
 
 #### **Actividad 215: Promedio**
 1. Crea un paquete llamado `org.learn.basico.actividad215`.
