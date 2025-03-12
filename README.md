@@ -551,6 +551,7 @@ https://www.w3schools.com/java/java_inheritance.asp
 2. Vamos a realizar una caravana de vehículos, la típica que vemos todos los años en la tele en verano desplazándose a las playas.
 3. Para eso nos han facilitado una interfaz que deben implementar todos los vehículos a motor, ya que debe controlarse su velocidad en todo tipo de carretera:
 
+![Ejemplo 402](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad402_ejemplo.PNG)
 
 ```java
 public interface Vehiculo {
