@@ -673,7 +673,7 @@ Echa un vistazo a esta valiosa información sobre test unitarios:
 * [Cuál es su propósito](https://www.youtube.com/watch?v=EOkoVm3rtNQ&list=PLTd5ehIj0goML37B7s9I9iN2zhJCfxJBC&index=1&ab_channel=makigas%3Aaprendeaprogramar)
 * [Cómo puedo elaborar uno en Junit](https://www.youtube.com/watch?v=1k22KuD4si0&list=PLTd5ehIj0goML37B7s9I9iN2zhJCfxJBC&index=2&ab_channel=makigas%3Aaprendeaprogramar)
 
-A continuación, copia en tu proyecto y ejecuta los test unitarios ubicados en Google Drive en: `AD\TEMARIO\UD1\ACTIVIDADES\DEV\ud1_eval_ini\ad.ud1_7_2`
+En el proyecto dispones de unos test unitarios para comprobar si has programado bien tu solución
 
 CerealesTest y VinoTest
 
