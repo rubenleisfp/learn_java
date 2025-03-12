@@ -40,3 +40,4 @@ build/
 *.java~
 pom.xml~
 .idea/
+README.MD~
