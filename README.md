@@ -75,6 +75,24 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 
 - [Explicación de Static](https://refactorizando.com/directiva-static-java/)
 
+### 5 - Colecciones
+
+- [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
+- [Map](https://www.w3schools.com/java/java_hashmap.asp)
+  
+### 6 - Herencia
+
+- [Abstracción](https://www.w3schools.com/java/java_abstract.asp)
+- [Herencia](https://www.w3schools.com/java/java_inheritance.asp)
+
+### 7 - Interfaces
+
+- [Interfaz](https://www.w3schools.com/java/java_interface.asp)
+
+### 8 - Polimorfismo
+
+- [Polimorfismo](https://www.w3schools.com/java/java_polymorphism.asp)
+
 ---
 
 ## Actividades de Refuerzo
