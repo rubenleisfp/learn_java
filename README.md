@@ -200,6 +200,7 @@ public class App {
 ### **Grupo 2 - Java Básico**
 
 #### **Actividad 201: Tipos de Datos**
+#TiposDatos
 
 1. Crea un paquete `org.learn.basico.actividad201`.
 2. Escribe variables de los siguientes tipos: `char`, `String`, `int`, `double`, `BigDecimal`, `boolean`.
@@ -215,14 +216,27 @@ public class App {
 ![Distribucion paquetes](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/package_distribution_basico.PNG))
 
 #### **Actividad 202: Operaciones Matemáticas**
-
+#Operaciones
 1. Crea un paquete `org.learn.basico.actividad202`.
 2. Escribe un programa que realice las operaciones básicas (suma, resta, multiplicación, división y módulo) con dos números ingresados por el usuario.
 
-#### **Actividad 203: Condicionales**
-
+#### **Actividad 203: Condicionales** 
+#Condicionales
 1. Crea un paquete `org.learn.basico.actividad203`.
 2. Escribe un programa que reciba dos números e indique cuál es mayor y para cada uno de ellos si es par o impar.
+
+#### **Actividad 204: Bisiesto**
+#Condicionales
+1. Crea un paquete `org.learn.basico.actividad204`.
+2. Escribe un programa que reciba dos números e indique si un año es bisiesto o no (Un año es bisiesto si es divisible entre 4, pero no es divisible entre 100, a menos que sea divisible entre 400.)
+3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
+
+#### **Actividad 205: Área círculo **
+#TiposDatos 
+1. Crea un paquete `org.learn.basico.actividad205`.
+2. Usa la fórmula para calcular el área de un círculo: A = PI * r^2
+3. Crea una función llamada calcularArea que reciba el radio y devuelva el area
+3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
 #### **Actividad 210: Ordenar Mayor a Menor**
 
@@ -255,7 +269,8 @@ C,B,A
 
 1. Crea un paquete `org.learn.basico.actividad211`.
 2. Escribe un programa que reciba un número entero que representa una nota.
-3. Debe mostrar por la salida la calificación correspondiente.
+3. Crea una función llamada obtenerCalificacion que reciba el entero y devuelva la calificación
+4. El programa debe mostrar por la salida la calificación correspondiente.
     * Insuficiente (<5)
     * Suficiente (5)
     * Bien (6)
@@ -271,8 +286,10 @@ La calificación correspondiente es: Notable
 #### **Actividad 213: Sumar enteros**
 
 1. Crea un paquete llamado `org.learn.basico.actividad213`.
-2. Escribe un programa en Java que reciba un número entero.
-3. Debe mostrar por la salida la suma de todos los números anteriores al número recibido.
+2. Escribe un programa en Java que para un numero entero
+muestre por la salida la suma de todos los números anteriores al número recibido.
+3. No es necesario pedir los datos al usuario. Los puede tener escritos directamente en el main
+
 
 ##### Ejemplo:
 Ingrese un número: 4  
