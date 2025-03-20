@@ -427,7 +427,7 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 ### **Grupo 3 - Clases y Objetos**
 
-#### **Actividad 311: Clase Círculo**
+#### **Actividad 301: Clase Círculo**
 
 1. Crea un paquete llamado `org.learn.clases.actividad301`.
 2. Crear una clase `Círculo` que represente esta figura geométrica.
