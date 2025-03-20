@@ -372,6 +372,35 @@ Matriz1: [1, 3, -5, 4]
 Matriz2: [1, 4, -5, -2]  
 Resultado: 1 12 25 -8
 
+#### **Actividad 230: Repetir palabra**
+1. Crea un paquete llamado `org.learn.basico.actividad230`.
+2. Haz un programa que tenga una funcion que reciba una palabra y el número de veces que deseamos repetirla
+   y devuela la palabra repetida n veces
+   Ej: "Hola" 5 => "Hola Hola Hola Hola Hola"
+
+#### **Actividad 231: Caracteres totales**
+1. Crea un paquete llamado `org.learn.basico.actividad231`.
+2. Haz un programa que tenga una funcion que reciba una frase y devuelve el número total de caracteres que contiene
+   Ej: "Estoy aprendiendo Java" => 23
+
+#### **Actividad 232: Numero palabras**
+1. Crea un paquete llamado `org.learn.basico.actividad232`.
+2. Haz un programa que tenga una funcion que reciba una frase y devuelva el número de palabras
+
+3. Ej: “Me gusta mucho la programación” => 5
+
+#### **Actividad 233: Caracteres totales**
+1. Crea un paquete llamado `org.learn.basico.actividad233`.
+2. Haz un programa que tenga una funcion que reciba una frase y devuelva la palabra más larga
+
+3. Ej: “Me gusta mucho la programación” => programación
+
+#### **Actividad 234: Caracteres totales**
+1. Crea un paquete llamado `org.learn.basico.actividad233`.
+2. Haz un programa que tenga una funcion que reciba una frase y la devuelva al revés
+
+Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me”
+
 ### **Grupo 3 - Clases y Objetos**
 
 #### **Actividad 301: Clase Círculo**
