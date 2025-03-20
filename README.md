@@ -239,7 +239,7 @@ public class App {
 3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
 #### **Actividad 210: Ordenar Mayor a Menor**
-
+#Condicionales
 1. Crea un paquete `org.learn.basico.actividad210`.
 2. Escribe un programa en Java que reciba 3 números enteros.
 3. Debe mostrar por la salida los elementos ordenados de mayor a menor.
@@ -266,7 +266,7 @@ C,B,A
 
 
 #### **Actividad 211: Calificaciones**
-
+#Condicionales
 1. Crea un paquete `org.learn.basico.actividad211`.
 2. Escribe un programa que reciba un número entero que representa una nota.
 3. Crea una función llamada obtenerCalificacion que reciba el entero y devuelva la calificación
@@ -284,7 +284,7 @@ Ingrese la nota: 7
 La calificación correspondiente es: Notable
 
 #### **Actividad 213: Sumar enteros**
-
+#Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad213`.
 2. Escribe un programa en Java que para un numero entero
 muestre por la salida la suma de todos los números anteriores al número recibido.
@@ -303,7 +303,7 @@ Salida: 6
 - 5 => 1 + 2 + 3 + 4 = 10
 
 #### **Actividad 214: Tabla de multiplicar**
-
+#Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad214`.
 2. Dentro escribe un programa Java que tome un número como entrada e imprima su tabla de multiplicar hasta 10.
 
@@ -317,6 +317,7 @@ Salida esperada:
 - 8 x 10 = 80
 
 #### **Actividad 215: Promedio**
+#Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad215`.
 2. Dentro escribe un programa que realice el cálculo de la media aritmética de 3 números enteros recibidos como entrada.
 
@@ -327,6 +328,7 @@ Tercer número: 6
 Promedio: 4
 
 #### **Actividad 216: Número Primo**
+#Bucles #Condicionales #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad216`.
 2. Realiza una función que calcule si un número es primo o no (es aquel que solo es divisible por 1 o por sí mismo).
 3. Prueba la función con el número 4 y 5.
@@ -339,6 +341,7 @@ Promedio: 4
 1060 es la suma de los 100 primeros primos
 
 #### **Actividad 217: Clasificación de Números**
+#Bucles #Condicionales #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad217`.
 2. Realiza un algoritmo que pida números (se pedirá por teclado la cantidad de números a introducir).
 3. El programa debe informar de cuántos números introducidos son mayores que 0, menores que 0 e iguales a 0.
@@ -355,10 +358,12 @@ Cantidad de números menores que 0: 1
 Cantidad de números iguales a 0: 1
 
 #### **Actividad 218: Análisis de Cadenas - ¿Sólo Vocales?**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad218`.
 2. En este ejercicio debemos pedir al cliente que introduzca una cadena de caracteres y posteriormente debemos analizarla para ver si se han incluido sólo vocales o hay algún otro tipo de carácter.
 
 #### **Actividad 219: Distribuir Números**
+#Array
 1. Crea un paquete llamado `org.learn.basico.actividad219`.
 2. Haz un programa que reciba como argumento con `Scanner` un número.
 3. El programa creará 2 arrays, uno para los elementos pares y otro para los impares hasta el número ofrecido como argumento.
@@ -370,6 +375,7 @@ Elementos pares: 2 4
 Elementos impares: 1 3 5
 
 #### **Actividad 220: Voltear Matriz**
+#Array
 1. Crea un paquete llamado `org.learn.basico.actividad220`.
 2. Escribe un programa para rotar los argumentos de una matriz.
 3. La matriz inicial la definirás hardcodeada en el programa.
@@ -380,6 +386,7 @@ Elementos impares: 1 3 5
 {40, 30, 20}
 
 #### **Actividad 221: Multiplicar Matriz**
+#Array
 1. Crea un paquete llamado `org.learn.basico.actividad221`.
 2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros.
 3. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
