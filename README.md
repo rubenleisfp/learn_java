@@ -427,15 +427,31 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 ### **Grupo 3 - Clases y Objetos**
 
-#### **Actividad 301: Clase Círculo**
+#### **Actividad 311: Clase Círculo**
 
 1. Crea un paquete llamado `org.learn.clases.actividad301`.
 2. Crear una clase `Círculo` que represente esta figura geométrica.
 3. Crea métodos para calcular su perímetro y área.
 
-#### **Actividad 302: Clase Cuenta**
+#### **Actividad 302: Clase Coche**
 
-1. Crea un paquete llamado `org.learn.clases.actividad302`.
+1. Crea un paquete llamado `org.learn.clases.actividad312`.
+2Crea una clase Motor con los atributos potencia y tipo (por ejemplo, "eléctrico" o "gasolina").
+2. Luego, crea una clase Coche para que tenga un objeto de tipo Motor. 
+3. En una clase principal llamada AppCoche,en el main(), crea un coche con su motor e imprime la información.
+
+#### **Actividad 303: Clase Coche acelerar**
+
+1. Crea un paquete llamado `org.learn.clases.actividad313`.
+2. Crea una clase Motor y Coche, iguales que las del ejercicio 302
+3. En la clase Coche, crea un nuevo atributo llamado velocidad
+3. En la clase coche, crea 2 métodos acelerar. El primero incrementará la velocidad en 10km y el segundo recibirá un argumento
+para incrementar lo que gustemos.
+4. En la clase AppCoche, crea 2 coches y haz que incrementen su velocidad de forma aleatoria
+
+#### **Actividad 312: Clase Cuenta**
+
+1. Crea un paquete llamado `org.learn.clases.actividad312`.
 2. Crea una clase llamada `Cuenta` con los siguientes atributos:
     - `titular`: obligatorio.
     - `cantidad`: opcional, puede tener decimales.
@@ -447,7 +463,7 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 Crea una clase `App` para realizar operaciones de ingreso y retiro en una cuenta.
 
-#### **Actividad 303: Transferencias entre Cuentas**
+#### **Actividad 313: Transferencias entre Cuentas**
 
 1. En la clase `App`, crea un método para transferir dinero entre cuentas:
    ```java
@@ -456,9 +472,9 @@ Crea una clase `App` para realizar operaciones de ingreso y retiro en una cuenta
 2. Implementa el método para transferir dinero de la cuenta origen a la cuenta destino.
 3. Crea dos cuentas, inicialízalas con un saldo y realiza una transferencia entre ellas.
 
-#### **Actividad 304: Clase Nave Espacial**
+#### **Actividad 314: Clase Nave Espacial**
 
-1. Crea un paquete llamado `org.learn.clases.actividad304`.
+1. Crea un paquete llamado `org.learn.clases.actividad314`.
 2. Completa la clase `NaveEspacial` que simula el movimiento de una nave en un plano bidimensional:
     - Métodos para moverse a izquierda, derecha, arriba y abajo.
     - La nave no puede salirse de los límites definidos por `xMax`, `xMin`, `yMax` y `yMin`.

@@ -1,6 +1,6 @@
 package org.learn.herencia.actividad602;
 
-// Clase Main para probar la implementación
+// Clase AppCoche para probar la implementación
 public class AppEmpleados {
     public static void main(String[] args) {
         // Crear instancias de cada tipo de empleado

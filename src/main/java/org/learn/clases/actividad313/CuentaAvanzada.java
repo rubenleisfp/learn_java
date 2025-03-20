@@ -1,4 +1,4 @@
-package org.learn.clases.actividad303;
+package org.learn.clases.actividad313;
 public class CuentaAvanzada {
     private String titular;
     private double cantidad;
