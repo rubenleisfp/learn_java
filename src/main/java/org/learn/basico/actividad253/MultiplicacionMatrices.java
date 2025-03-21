@@ -1,4 +1,4 @@
-package org.learn.basico.actividad211;
+package org.learn.basico.actividad253;
 public class MultiplicacionMatrices {
     public static void main(String[] args) {
         // Definir las matrices de una dimensión de forma hardcodeada

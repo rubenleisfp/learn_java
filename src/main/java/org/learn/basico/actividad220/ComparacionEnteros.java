@@ -1,4 +1,4 @@
-package org.learn.basico.actividad203;
+package org.learn.basico.actividad220;
 import java.util.Scanner;
 
 public class ComparacionEnteros {

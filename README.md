@@ -218,29 +218,53 @@ public class App {
 #### **Actividad 202: Operaciones Matemáticas**
 #Operaciones
 1. Crea un paquete `org.learn.basico.actividad202`.
-2. Escribe un programa que realice las operaciones básicas (suma, resta, multiplicación, división y módulo) con dos números ingresados por el usuario.
+2. Escribe un programa que realice las operaciones básicas (suma, resta, multiplicación, división y módulo) de 2 números.
 
-#### **Actividad 205: Área círculo**
+#### **Actividad 202: Operaciones Matemáticas**
+#Operaciones
+1. Crea un paquete `org.learn.basico.actividad203`.
+2. Escribe un programa que inicie 2 variables e intercambie su valor.
+3. ¿Cómo lo harías? Quizás iniciar una tercera variable te pueda ayudar.
+
+#### **Actividad 205: Área y perimetro del cuadrado**
 #TiposDatos
 1. Crea un paquete `org.learn.basico.actividad205`.
-2. Usa la fórmula para calcular el área de un círculo: A = PI * r^2
-3. Crea una función llamada calcularArea que reciba el radio y devuelva el area
-3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
+2. Crea una función llamada calcularArea que reciba el lado y devuelva el area
+3. Crea una función llamada calcularPerimetro que reciba el lado y devuelva el perimetro
+4. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
 #### **Actividad 220: Condicionales** 
 #Condicionales
-1. Crea un paquete `org.learn.basico.actividad203`.
+1. Crea un paquete `org.learn.basico.actividad220`.
 2. Escribe un programa que reciba dos números e indique cuál es mayor y para cada uno de ellos si es par o impar.
 
 #### **Actividad 221: Bisiesto**
 #Condicionales
-1. Crea un paquete `org.learn.basico.actividad204`.
+1. Crea un paquete `org.learn.basico.actividad221`.
 2. Escribe un programa que reciba dos números e indique si un año es bisiesto o no (Un año es bisiesto si es divisible entre 4, pero no es divisible entre 100, a menos que sea divisible entre 400.)
 3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
-#### **Actividad 222: Ordenar Mayor a Menor**
+#### **Actividad 222: Calificaciones**
 #Condicionales
-1. Crea un paquete `org.learn.basico.actividad210`.
+1. Crea un paquete `org.learn.basico.actividad222`.
+2. Escribe un programa que reciba un número entero que representa una nota.
+3. Crea una función llamada obtenerCalificacion que reciba el entero y devuelva la calificación
+4. El programa debe mostrar por la salida la calificación correspondiente.
+    * Insuficiente (<5)
+    * Suficiente (5)
+    * Bien (6)
+    * Notable (7 o 8)
+    * SobreSaliente (9,10)
+
+##### Ejemplo:
+
+Ingrese la nota: 7
+
+La calificación correspondiente es: Notable
+
+#### **Actividad 223: Ordenar Mayor a Menor**
+#Condicionales
+1. Crea un paquete `org.learn.basico.actividad223`.
 2. Escribe un programa en Java que reciba 3 números enteros.
 3. Debe mostrar por la salida los elementos ordenados de mayor a menor.
 
@@ -265,25 +289,6 @@ C,B,A
 ![Actividad210_diagrama](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad210_diagrama.PNG))
 
 
-#### **Actividad 223: Calificaciones**
-#Condicionales
-1. Crea un paquete `org.learn.basico.actividad211`.
-2. Escribe un programa que reciba un número entero que representa una nota.
-3. Crea una función llamada obtenerCalificacion que reciba el entero y devuelva la calificación
-4. El programa debe mostrar por la salida la calificación correspondiente.
-    * Insuficiente (<5)
-    * Suficiente (5)
-    * Bien (6)
-    * Notable (7 o 8)
-    * SobreSaliente (9,10)
-
-##### Ejemplo:
-
-Ingrese la nota: 7
-
-La calificación correspondiente es: Notable
-
-
 #### **Actividad 230: Bucle del 1 al 10**
 #Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad230'`.
@@ -292,7 +297,7 @@ La calificación correspondiente es: Notable
 #### **Actividad 231: Contar pares del 0 al 20**
 #Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad231'`.
-2. Escribe un programa en Java que para cuente los números pares del 0 al 20
+2. Escribe un programa en Java que  cuente los números pares del 0 al 20
 
 #### **Actividad 233: Sumar enteros**
 #Bucles #Operaciones
@@ -413,41 +418,41 @@ Resultado: 1 12 25 -8
 
 #### **Actividad 260: Repetir palabra**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad230`.
+1. Crea un paquete llamado `org.learn.basico.actividad260`.
 2. Haz un programa que tenga una funcion que reciba una palabra y el número de veces que deseamos repetirla
    y devuela la palabra repetida n veces
    Ej: "Hola" 5 => "Hola Hola Hola Hola Hola"
 
 #### **Actividad 261: Caracteres totales**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad231`.
+1. Crea un paquete llamado `org.learn.basico.actividad261`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelve el número total de caracteres que contiene
    Ej: "Estoy aprendiendo Java" => 23
 
 #### **Actividad 262: Numero palabras**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad232`.
+1. Crea un paquete llamado `org.learn.basico.actividad262`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelva el número de palabras
 
 3. Ej: “Me gusta mucho la programación” => 5
 
-#### **Actividad 263: Caracteres totales**
+#### **Actividad 263: Palabra más larga**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad233`.
+1. Crea un paquete llamado `org.learn.basico.actividad263`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelva la palabra más larga
 
 3. Ej: “Me gusta mucho la programación” => programación
 
-#### **Actividad 264: Caracteres totales**
+#### **Actividad 264: Cadena al revés**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad233`.
+1. Crea un paquete llamado `org.learn.basico.actividad264`.
 2. Haz un programa que tenga una funcion que reciba una frase y la devuelva al revés
 
 Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me”
 
-#### **Actividad 264: Análisis de Cadenas - ¿Sólo Vocales?**
+#### **Actividad 265: Análisis de Cadenas - ¿Sólo Vocales?**
 #Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad218`.
+1. Crea un paquete llamado `org.learn.basico.actividad265`.
 2. En este ejercicio debemos pedir al cliente que introduzca una cadena de caracteres y posteriormente debemos analizarla para ver si se han incluido sólo vocales o hay algún otro tipo de carácter.
 
 ### **Grupo 3 - Clases y Objetos**

@@ -1,8 +1,8 @@
-package org.learn.basico.actividad210;
+package org.learn.basico.actividad223;
 
 import java.util.Scanner;
 
-public class OrdenarNumeros {
+public class OrdenarMayorMenor {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

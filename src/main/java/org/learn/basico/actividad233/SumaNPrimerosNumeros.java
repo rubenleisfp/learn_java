@@ -1,4 +1,4 @@
-package org.learn.basico.actividad213;
+package org.learn.basico.actividad233;
 
 import java.util.Scanner;
 
