@@ -1,4 +1,4 @@
-package org.learn.basico.actividad216;
+package org.learn.basico.actividad236;
 public class Primos {
     public static boolean esPrimo(int numero) {
         if (numero <= 1) {

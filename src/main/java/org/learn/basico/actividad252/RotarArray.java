@@ -1,4 +1,4 @@
-package org.learn.basico.actividad220;
+package org.learn.basico.actividad252;
 public class RotarArray {
     public static void main(String[] args) {
         // Definir el vector inicial de forma hardcodeada

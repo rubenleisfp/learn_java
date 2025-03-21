@@ -1,4 +1,4 @@
-package org.learn.basico.actividad215;
+package org.learn.basico.actividad235;
 import java.util.Scanner;
 
 public class Promedio {

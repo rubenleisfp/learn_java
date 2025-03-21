@@ -1,4 +1,4 @@
-package org.learn.basico.actividad217;
+package org.learn.basico.actividad237;
 import java.util.Scanner;
 
 public class ClasificacionNumeros {

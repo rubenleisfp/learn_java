@@ -220,25 +220,25 @@ public class App {
 1. Crea un paquete `org.learn.basico.actividad202`.
 2. Escribe un programa que realice las operaciones básicas (suma, resta, multiplicación, división y módulo) con dos números ingresados por el usuario.
 
-#### **Actividad 203: Condicionales** 
-#Condicionales
-1. Crea un paquete `org.learn.basico.actividad203`.
-2. Escribe un programa que reciba dos números e indique cuál es mayor y para cada uno de ellos si es par o impar.
-
-#### **Actividad 204: Bisiesto**
-#Condicionales
-1. Crea un paquete `org.learn.basico.actividad204`.
-2. Escribe un programa que reciba dos números e indique si un año es bisiesto o no (Un año es bisiesto si es divisible entre 4, pero no es divisible entre 100, a menos que sea divisible entre 400.)
-3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
-
-#### **Actividad 205: Área círculo **
-#TiposDatos 
+#### **Actividad 205: Área círculo**
+#TiposDatos
 1. Crea un paquete `org.learn.basico.actividad205`.
 2. Usa la fórmula para calcular el área de un círculo: A = PI * r^2
 3. Crea una función llamada calcularArea que reciba el radio y devuelva el area
 3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
-#### **Actividad 210: Ordenar Mayor a Menor**
+#### **Actividad 220: Condicionales** 
+#Condicionales
+1. Crea un paquete `org.learn.basico.actividad203`.
+2. Escribe un programa que reciba dos números e indique cuál es mayor y para cada uno de ellos si es par o impar.
+
+#### **Actividad 221: Bisiesto**
+#Condicionales
+1. Crea un paquete `org.learn.basico.actividad204`.
+2. Escribe un programa que reciba dos números e indique si un año es bisiesto o no (Un año es bisiesto si es divisible entre 4, pero no es divisible entre 100, a menos que sea divisible entre 400.)
+3. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
+
+#### **Actividad 222: Ordenar Mayor a Menor**
 #Condicionales
 1. Crea un paquete `org.learn.basico.actividad210`.
 2. Escribe un programa en Java que reciba 3 números enteros.
@@ -265,7 +265,7 @@ C,B,A
 ![Actividad210_diagrama](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad210_diagrama.PNG))
 
 
-#### **Actividad 211: Calificaciones**
+#### **Actividad 223: Calificaciones**
 #Condicionales
 1. Crea un paquete `org.learn.basico.actividad211`.
 2. Escribe un programa que reciba un número entero que representa una nota.
@@ -283,9 +283,20 @@ Ingrese la nota: 7
 
 La calificación correspondiente es: Notable
 
-#### **Actividad 213: Sumar enteros**
+
+#### **Actividad 230: Bucle del 1 al 10**
 #Bucles #Operaciones
-1. Crea un paquete llamado `org.learn.basico.actividad213`.
+1. Crea un paquete llamado `org.learn.basico.actividad230'`.
+2. Escribe un programa en Java que para haga un bucle del 1 al 10 de 3 formas distintas
+
+#### **Actividad 231: Contar pares del 0 al 20**
+#Bucles #Operaciones
+1. Crea un paquete llamado `org.learn.basico.actividad231'`.
+2. Escribe un programa en Java que para cuente los números pares del 0 al 20
+
+#### **Actividad 233: Sumar enteros**
+#Bucles #Operaciones
+1. Crea un paquete llamado `org.learn.basico.actividad233`.
 2. Escribe un programa en Java que para un numero entero
 muestre por la salida la suma de todos los números anteriores al número recibido.
 3. No es necesario pedir los datos al usuario. Los puede tener escritos directamente en el main
@@ -302,9 +313,10 @@ Salida: 6
 - 4 => 1 + 2 + 3 = 6
 - 5 => 1 + 2 + 3 + 4 = 10
 
-#### **Actividad 214: Tabla de multiplicar**
+#TODO
+#### **Actividad 234: Tabla de multiplicar**
 #Bucles #Operaciones
-1. Crea un paquete llamado `org.learn.basico.actividad214`.
+1. Crea un paquete llamado `org.learn.basico.actividad234`.
 2. Dentro escribe un programa Java que tome un número como entrada e imprima su tabla de multiplicar hasta 10.
 
 ##### Ejemplo:
@@ -316,9 +328,9 @@ Salida esperada:
 - ...
 - 8 x 10 = 80
 
-#### **Actividad 215: Promedio**
-#Bucles #Operaciones
-1. Crea un paquete llamado `org.learn.basico.actividad215`.
+#### **Actividad 235: Promedio**
+#Operaciones #Condicionales #Bucles
+1. Crea un paquete llamado `org.learn.basico.actividad235`.
 2. Dentro escribe un programa que realice el cálculo de la media aritmética de 3 números enteros recibidos como entrada.
 
 ##### Ejemplo:
@@ -327,9 +339,9 @@ Segundo número: 4
 Tercer número: 6  
 Promedio: 4
 
-#### **Actividad 216: Número Primo**
+#### **Actividad 236: Número Primo**
 #Bucles #Condicionales #Operaciones
-1. Crea un paquete llamado `org.learn.basico.actividad216`.
+1. Crea un paquete llamado `org.learn.basico.actividad236`.
 2. Realiza una función que calcule si un número es primo o no (es aquel que solo es divisible por 1 o por sí mismo).
 3. Prueba la función con el número 4 y 5.
 4. Ahora haz una nueva función que sume todos los números que son primos hasta 100.
@@ -340,9 +352,9 @@ Promedio: 4
 4 false  
 1060 es la suma de los 100 primeros primos
 
-#### **Actividad 217: Clasificación de Números**
+#### **Actividad 237: Clasificación de Números**
 #Bucles #Condicionales #Operaciones
-1. Crea un paquete llamado `org.learn.basico.actividad217`.
+1. Crea un paquete llamado `org.learn.basico.actividad237`.
 2. Realiza un algoritmo que pida números (se pedirá por teclado la cantidad de números a introducir).
 3. El programa debe informar de cuántos números introducidos son mayores que 0, menores que 0 e iguales a 0.
 
@@ -357,14 +369,17 @@ Cantidad de números mayores que 0: 3
 Cantidad de números menores que 0: 1  
 Cantidad de números iguales a 0: 1
 
-#### **Actividad 218: Análisis de Cadenas - ¿Sólo Vocales?**
-#Cadenas
-1. Crea un paquete llamado `org.learn.basico.actividad218`.
-2. En este ejercicio debemos pedir al cliente que introduzca una cadena de caracteres y posteriormente debemos analizarla para ver si se han incluido sólo vocales o hay algún otro tipo de carácter.
 
-#### **Actividad 219: Distribuir Números**
+#### **Actividad 250: Crea un array con los días de la semana**
 #Array
-1. Crea un paquete llamado `org.learn.basico.actividad219`.
+1. Crea un paquete llamado `org.learn.basico.actividad250`.
+2. Crea un array vacío
+3. Rellenalo con los días de la semana
+4. Recorrelo y muestra todos los días
+
+#### **Actividad 251: Distribuir Números**
+#Array
+1. Crea un paquete llamado `org.learn.basico.actividad251`.
 2. Haz un programa que reciba como argumento con `Scanner` un número.
 3. El programa creará 2 arrays, uno para los elementos pares y otro para los impares hasta el número ofrecido como argumento.
 4. Finalmente recorrerá ambos arrays para ver su contenido.
@@ -374,9 +389,9 @@ Ingrese un número: 5
 Elementos pares: 2 4  
 Elementos impares: 1 3 5
 
-#### **Actividad 220: Voltear Matriz**
+#### **Actividad 252: Rotar Matriz**
 #Array
-1. Crea un paquete llamado `org.learn.basico.actividad220`.
+1. Crea un paquete llamado `org.learn.basico.actividad252`.
 2. Escribe un programa para rotar los argumentos de una matriz.
 3. La matriz inicial la definirás hardcodeada en el programa.
 
@@ -385,9 +400,9 @@ Elementos impares: 1 3 5
 ##### Salida esperada:
 {40, 30, 20}
 
-#### **Actividad 221: Multiplicar Matriz**
+#### **Actividad 253: Multiplicar Matriz**
 #Array
-1. Crea un paquete llamado `org.learn.basico.actividad221`.
+1. Crea un paquete llamado `org.learn.basico.actividad253`.
 2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros.
 3. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
 
@@ -396,34 +411,44 @@ Matriz1: [1, 3, -5, 4]
 Matriz2: [1, 4, -5, -2]  
 Resultado: 1 12 25 -8
 
-#### **Actividad 230: Repetir palabra**
+#### **Actividad 260: Repetir palabra**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad230`.
 2. Haz un programa que tenga una funcion que reciba una palabra y el número de veces que deseamos repetirla
    y devuela la palabra repetida n veces
    Ej: "Hola" 5 => "Hola Hola Hola Hola Hola"
 
-#### **Actividad 231: Caracteres totales**
+#### **Actividad 261: Caracteres totales**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad231`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelve el número total de caracteres que contiene
    Ej: "Estoy aprendiendo Java" => 23
 
-#### **Actividad 232: Numero palabras**
+#### **Actividad 262: Numero palabras**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad232`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelva el número de palabras
 
 3. Ej: “Me gusta mucho la programación” => 5
 
-#### **Actividad 233: Caracteres totales**
+#### **Actividad 263: Caracteres totales**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad233`.
 2. Haz un programa que tenga una funcion que reciba una frase y devuelva la palabra más larga
 
 3. Ej: “Me gusta mucho la programación” => programación
 
-#### **Actividad 234: Caracteres totales**
+#### **Actividad 264: Caracteres totales**
+#Cadenas
 1. Crea un paquete llamado `org.learn.basico.actividad233`.
 2. Haz un programa que tenga una funcion que reciba una frase y la devuelva al revés
 
 Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me”
+
+#### **Actividad 264: Análisis de Cadenas - ¿Sólo Vocales?**
+#Cadenas
+1. Crea un paquete llamado `org.learn.basico.actividad218`.
+2. En este ejercicio debemos pedir al cliente que introduzca una cadena de caracteres y posteriormente debemos analizarla para ver si se han incluido sólo vocales o hay algún otro tipo de carácter.
 
 ### **Grupo 3 - Clases y Objetos**
 

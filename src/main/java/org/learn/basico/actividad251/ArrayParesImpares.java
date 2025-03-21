@@ -1,10 +1,10 @@
-package org.learn.basico.actividad219;
+package org.learn.basico.actividad251;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class ArrayParesImpares {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce un número: ");

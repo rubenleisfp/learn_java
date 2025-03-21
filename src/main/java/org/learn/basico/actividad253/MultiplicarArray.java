@@ -1,8 +1,8 @@
-package org.learn.basico.actividad221;
+package org.learn.basico.actividad253;
 
 import java.util.Arrays;
 
-public class Main {
+public class MultiplicarArray {
     public static void main(String[] args) {
         int[] matriz1 = {1, 3, -5, 4};
         int[] matriz2 = {1, 4, -5, -2};
