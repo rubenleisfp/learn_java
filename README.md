@@ -213,7 +213,7 @@ public class App {
 * boolean-> String
 * String -> boolean
 
-![Distribucion paquetes](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/package_distribution_basico.PNG))
+![Distribucion paquetes](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/package_distribution_basico.PNG)
 
 #### **Actividad 202: Operaciones Matemáticas**
 #Operaciones
