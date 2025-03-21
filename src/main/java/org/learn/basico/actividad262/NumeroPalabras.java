@@ -7,6 +7,6 @@ public class NumeroPalabras {
     }
 
     private static int numPalabras(String palabra) {
-        return palabra.split(" ").length;
+        return 0;
     }
 }

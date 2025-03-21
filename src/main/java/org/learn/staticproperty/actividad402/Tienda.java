@@ -4,8 +4,7 @@ public class Tienda {
     private static double totalImporteVendido;
 
     public static void realizarVenta(Producto producto) {
-    	numeroVentas++;
-    	totalImporteVendido += producto.getPrecio();
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public static double getNumeroVentas() {

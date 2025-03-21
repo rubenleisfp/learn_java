@@ -7,6 +7,6 @@ public class TotalCaracteres {
     }
 
     private static int totalCaracteres(String palabra) {
-        return palabra.length();
+        return 0;
     }
 }

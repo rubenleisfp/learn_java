@@ -7,18 +7,12 @@ public class Cuenta {
 
     // Constructor con titular obligatorio y cantidad opcional
     public Cuenta(String titular) {
-        this.titular = titular;
-        this.cantidad = 0;
+        //TODO a completar por el alumno
     }
 
     // Constructor con titular y cantidad
     public Cuenta(String titular, double cantidad) {
-        this.titular = titular;
-        if (cantidad >= 0) {
-            this.cantidad = cantidad;
-        } else {
-            this.cantidad = 0;
-        }
+        //TODO a completar por el alumno
     }
 
     // Métodos getter y setter
@@ -35,25 +29,17 @@ public class Cuenta {
     }
 
     public void setCantidad(double cantidad) {
-        if (cantidad >= 0) {
-            this.cantidad = cantidad;
-        }
+        //TODO a completar por el alumno
     }
 
     // Método para ingresar dinero en la cuenta
     public void ingresar(double cantidad) {
-        if (cantidad > 0) {
-            this.cantidad += cantidad;
-        }
+        //TODO a completar por el alumno
     }
 
     // Método para retirar dinero de la cuenta
     public void retirar(double cantidad) {
-        if (this.cantidad - cantidad >= 0) {
-            this.cantidad -= cantidad;
-        } else {
-            this.cantidad = 0;
-        }
+        //TODO a completar por el alumno
     }
 
     // Método toString para imprimir los datos de la cuenta

@@ -12,47 +12,27 @@ public class NaveEspacial {
     private int yMax;
 
     public NaveEspacial(int xMax, int xMin, int yMin, int yMax) {
-        super();
-        this.xMax = xMax;
-        this.xMin = xMin;
-        this.yMin = yMin;
-        this.yMax = yMax;
+        //TODO a completar por el alumno
     }
 
     public boolean moverDerecha() {
-        if (x < xMax) {
-            x++;
-            return true;
-        } else {
-            return false;
-        }
+        //TODO a completar por el alumno
+        return true;
     }
 
     public boolean moverIzquierda() {
-        if (x > xMin) {
-            x--;
-            return true;
-        } else {
-            return false;
-        }
+        //TODO a completar por el alumno
+        return true;
     }
 
     public boolean moverArriba() {
-        if (y < yMax) {
-            y++;
-            return true;
-        } else {
-            return false;
-        }
+        //TODO a completar por el alumno
+        return true;
     }
 
     public boolean moverAbajo() {
-        if (y > yMin) {
-            y--;
-            return true;
-        } else {
-            return false;
-        }
+        //TODO a completar por el alumno
+        return true;
     }
     
 

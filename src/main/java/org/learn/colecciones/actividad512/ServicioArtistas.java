@@ -12,34 +12,18 @@ public class ServicioArtistas {
     }
 
     public void agregarArtista(String nuevoArtista) {
-        artistaList.add(nuevoArtista);
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public void mostrarArtistas() {
-        for (String artista : artistaList) {
-            System.out.println(artista);
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean eliminarArtista(String artistaEliminar) {
-        if (artistaList.contains(artistaEliminar)) {
-            artistaList.remove(artistaEliminar);
-            return true;
-            //System.out.println("Artista eliminado correctamente.");
-        } else {
-            return false;
-            //System.out.println("El artista no existe en la lista.");
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 
     public boolean actualizarArtista(String artistaActualizar, String nuevoNombre) {
-        if (artistaList.contains(artistaActualizar)) {
-            int index = artistaList.indexOf(artistaActualizar);
-            artistaList.set(index, nuevoNombre);
-            return true;
-        } else {
-            return false;
-
-        }
+        throw new UnsupportedOperationException("A implementar por el alumno");
     }
 }
