@@ -220,7 +220,7 @@ public class App {
 1. Crea un paquete `org.learn.basico.actividad202`.
 2. Escribe un programa que realice las operaciones básicas (suma, resta, multiplicación, división y módulo) de 2 números.
 
-#### **Actividad 202: Operaciones Matemáticas**
+#### **Actividad 203: Intercambiar valores**
 #Operaciones
 1. Crea un paquete `org.learn.basico.actividad203`.
 2. Escribe un programa que inicie 2 variables e intercambie su valor.
@@ -318,7 +318,6 @@ Salida: 6
 - 4 => 1 + 2 + 3 = 6
 - 5 => 1 + 2 + 3 + 4 = 10
 
-#TODO
 #### **Actividad 234: Tabla de multiplicar**
 #Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad234`.
