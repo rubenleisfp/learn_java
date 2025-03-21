@@ -516,7 +516,7 @@ Instrucciones:
 
 ### **Grupo 5 - Colecciones**
 
-#### Actividad 501: Probar colecciones
+#### **Actividad 501: Probar colecciones**
 
 1. Crea un paquete llamado `org.learn.colecciones.actividad501`.
 2. Revisa en la teoría aquellos videos de las colecciones que necesites repasar.
@@ -529,9 +529,39 @@ Instrucciones:
 Replica los ejemplos anteriores para List, Set y Mapa, pero utilizando en vez de un String en las colecciones, un objeto. P.ej:
 - Alumno (String nombre, int id)
 
-#### Actividad 502
-
+#### **Actividad 502: Manipulación básica de listas**
 1. Crea un paquete llamado `org.learn.colecciones.actividad502`.
+2. Escribe un programa en Java que:
+3. Cree una ArrayList<String> con los nombres de tres ciudades.
+4. Añada una cuarta ciudad al final de la lista.
+5. Elimine la segunda ciudad.
+6. Muestre el contenido de la lista tras cada operación.
+
+#### **Actividad 503: Uso de Set para eliminar duplicados**
+1. Crea un paquete llamado `org.learn.colecciones.actividad503`.
+2. Escribe un programa que:
+3. Cree un HashSet<Integer>.
+4. Añada los números: 10, 20, 30, 20, 10, 40, 50.
+5. Muestre el contenido del Set.
+
+#### **Actividad 504: Diccionario con Map**
+1. Crea un paquete llamado `org.learn.colecciones.actividad504`.
+2. Implementa un programa que:
+3. Cree un HashMap<String, String> para almacenar palabras y su traducción en inglés.
+4. Añada al menos tres pares de palabras.
+5. Busque la traducción de una palabra.
+6. Imprima todas las claves y valores del mapa.
+
+#### **Actividad 505: Búsqueda en lista de objetos**
+1. Crea un paquete llamado `org.learn.colecciones.actividad505`.
+2. Escribe un programa que:
+3. Defina una clase Alumno con String nombre e int id.
+4. Cree una ArrayList<Alumno> con al menos tres objetos.
+5. Busque si un alumno con un id específico está en la lista.
+
+#### **Actividad 512: Gestor Artistas**
+
+1. Crea un paquete llamado `org.learn.colecciones.actividad512`.
 2. Haz una clase App con un main, que realice la siguiente tarea:
     - Ofrece al usuario la opción de realizar un CRUD (Create, Remove, Read,Update) sobre una lista de artistas musicales, el artista se define como un String.
 
@@ -554,9 +584,9 @@ Implementación de cada opción:
 
 En la rama starter ya se provee una maqueta
 
-#### **Actividad 503: Software de Encriptación/Desencriptación**
+#### **Actividad 513: Software de Encriptación/Desencriptación**
 
-1. Crea un paquete llamado `org.learn.colecciones.actividad503`.
+1. Crea un paquete llamado `org.learn.colecciones.actividad513`.
 2. Haz una clase `App` con un `main`, que realice la siguiente tarea:
     - Desarrolla un software de encriptación/desencriptación para los teléfonos de nuestros agentes secretos.
 
@@ -591,8 +621,6 @@ En la rama starter ya se provee una maqueta
 - Recibimos el teléfono como `String`, iteramos sobre él para obtener un carácter en concreto.
 - Acudimos a nuestro mapa de cifrado o descifrado y obtenemos su valor.
 - El valor lo concatenamos al `String` que queremos devolver como resultado.
-
-
 
 ### **Grupo 6 - Herencia**
 

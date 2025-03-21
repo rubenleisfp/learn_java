@@ -1,4 +1,4 @@
-package org.learn.colecciones.actividad502;
+package org.learn.colecciones.actividad512;
 
 import java.util.ArrayList;
 import java.util.List;
