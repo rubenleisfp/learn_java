@@ -669,7 +669,7 @@ En la rama starter ya se provee una maqueta
 
 ![Ejemplo 514](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad514_appgustos.PNG)
 
-#### **Actividad 515: Filtrado de películas **
+#### **Actividad 515: Filtrado de películas**
 
 ##### Cómo puede hacerse:
 
