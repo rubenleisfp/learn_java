@@ -647,7 +647,7 @@ En la rama starter ya se provee una maqueta
 - Introduzca el teléfono: `615051847`
 - Teléfono cifrado: `296169584`
 
-#### **Actividad 514: App Gustos **
+#### **Actividad 514: App Gustos**
 
 1. Crea un paquete llamado org.learn.colecciones.actividad514.
 
