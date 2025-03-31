@@ -691,6 +691,18 @@ En la rama starter ya se provee una maqueta
 
 6. Quedate con las n primeras peliculas que indique el usuario
 
+#### **Actividad 516: Carta mas alta**
+1. Crea un paquete llamado org.learn.colecciones.actividad516.
+2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
+3. Podrá indicarse el número de rondas a disputar
+3. Podrá haber n parcipantes, se pedirá al usuario los nombres de estos por la entrada standard hasta que escriba
+la palabra FIN
+4. En ese momento se creará una partida, en la cual se repartirá una carta a cada jugador, obviamente
+la baraja no puede tener cartas repetidas.
+5. Ganará el jugador con la carta mas alta
+
+![Juego carta mas alta](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/carta_mas_alta.png)
+
 ### **Grupo 6 - Herencia**
 
 ### **Actividad 601: Entender la Herencia**
