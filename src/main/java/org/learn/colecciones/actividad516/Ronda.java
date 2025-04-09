@@ -11,6 +11,7 @@ public class Ronda {
     private Carta cartaGanadora;
     private final int numRonda;
     private Baraja baraja;
+    Map<Jugador,Carta> cartasJugadores = new HashMap<>();
 
     public Ronda(int numRonda, List<Jugador> jugadores) {
         this.numRonda = numRonda;
@@ -36,7 +37,7 @@ public class Ronda {
      * Reparte una carta a cada jugador y evalua el ganador
      */
     public void jugarRonda() {
-        Map<Jugador,Carta> cartasJugadores = repartirCarta();
+        cartasJugadores= repartirCarta();
         evaluarGanador(cartasJugadores);
 
     }
@@ -64,7 +65,6 @@ public class Ronda {
      */
     private Map<Jugador, Carta> repartirCarta() {
         System.out.println("Repartimos cartas entre jugadores:");
-        Map<Jugador, Carta> cartasJugadores = new HashMap<>();
         for (Jugador jugador : jugadores) {
             Carta carta = baraja.repartirCarta();
             System.out.println("El jugador " + jugador + " ha extraido la carta " + carta);
