@@ -703,6 +703,10 @@ la baraja no puede tener cartas repetidas.
 
 ![Juego carta mas alta](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/carta_mas_alta.png)
 
+![UML Diagrama de clases](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad_516_UML_Juego_Cartas.PNG)
+
+
+
 ### **Grupo 6 - Herencia**
 
 ### **Actividad 601: Entender la Herencia**
