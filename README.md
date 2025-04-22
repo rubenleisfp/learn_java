@@ -12,6 +12,7 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 
 - [Curso Gratis Java Para Principiantes](https://www.youtube.com/watch?v=qxXcI56NfnE&ab_channel=TodoCode)
 - [JAVA Desde Cero: Primeros Pasos en una Hora](https://www.udemy.com/course/algoritmos-desde-cero/)
+- [Aprende Java con Brais Moure](https://github.com/mouredev/hello-java/tree/main)
 
 ### 0 - Aprende algoritmos y diagramas de flujo
 
