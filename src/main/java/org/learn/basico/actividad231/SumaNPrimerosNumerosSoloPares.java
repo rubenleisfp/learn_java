@@ -7,7 +7,9 @@ public class SumaNPrimerosNumerosSoloPares {
         
         int i=0;
         while(i<num) {
-        	suma=suma+i;
+            if (i%2==0) {
+                suma = suma + i;
+            }
         	i++;
         }
         System.out.println("suma:" + suma);

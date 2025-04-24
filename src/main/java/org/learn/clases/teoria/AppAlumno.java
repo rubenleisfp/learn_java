@@ -19,7 +19,7 @@ public class AppAlumno {
         aida.setEdad(25);
 
         //Creo un array de 4 posiciones, dónde meto los alumnos anteriores y a Borja en la posicion 4
-        Alumno alumnos[] = new Alumno[4];
+        Alumno[] alumnos = new Alumno[4];
         alumnos[0] = juan;
         alumnos[1] = aida;
         alumnos[2] = iago;
