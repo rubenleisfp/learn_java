@@ -690,7 +690,9 @@ En la rama starter ya se provee una maqueta
 
 5. Filtra la lista para quedarte solo con las películas de un género específico (por ejemplo, "Acción").
 
-6. Quedate con las n primeras peliculas que indique el usuario
+6. Ordena la lista de peliculas por su calificacion primero de forma ascendente y luego descendente.
+7. 
+8. Quedate con las n primeras peliculas que indique el usuario 
 
 #### **Actividad 516: Carta mas alta**
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
