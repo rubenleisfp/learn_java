@@ -96,6 +96,11 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 
 - [Polimorfismo](https://www.w3schools.com/java/java_polymorphism.asp)
 
+### 9 - Excepciones
+
+- [Checked_unchecked](https://codegym.cc/es/quests/lectures/es.cgu.module1.lecture29)
+- [Ejemplos](https://openwebinars.net/blog/introduccion-a-poo-en-java-excepciones/)
+
 ---
 
 ## Actividades de Refuerzo
@@ -689,19 +694,17 @@ En la rama starter ya se provee una maqueta
 4. En la función main, crea una lista de al menos 8 películas de distintos géneros y calificaciones.
 
 5. Filtra la lista para quedarte solo con las películas de un género específico (por ejemplo, "Acción").
-
 6. Ordena la lista de peliculas por su calificacion primero de forma ascendente y luego descendente.
-7. 
-8. Quedate con las n primeras peliculas que indique el usuario 
+7. Quedate con las n primeras peliculas que indique el usuario
 
 #### **Actividad 516: Carta mas alta**
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
 2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
 3. Podrá indicarse el número de rondas a disputar
 3. Podrá haber n parcipantes, se pedirá al usuario los nombres de estos por la entrada standard hasta que escriba
-la palabra FIN
+   la palabra FIN
 4. En ese momento se creará una partida, en la cual se repartirá una carta a cada jugador, obviamente
-la baraja no puede tener cartas repetidas.
+   la baraja no puede tener cartas repetidas.
 5. Ganará el jugador con la carta mas alta
 
 ![Juego carta mas alta](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/carta_mas_alta.png)
@@ -888,6 +891,32 @@ CerealesTest y VinoTest
 Intenta realizar el test unitario para `Detergente`, dónde compruebes que funciona correctamente el descuento.
 
 Como puedes ver, los test aportan seguridad a nuestro código para asegurarnos que cumple con el propósito para el que fue creado, que no se nos escapa algún caso que no teníamos contemplado y que en caso de cambios en el mismo, tenemos un mecanismo para verificar que sigue funcionando como se esperaba.
+
+### **Grupo 9 - Excepciones**
+
+### **Actividad 901: Piscina**
+Dentro del paquete org.learn.excepcion.actividad901
+
+a) Crea una clase PiscinaException que herede de Exception. Recibirá un String con el motivo de la excepcion
+
+b) Crea una clase piscina que reciba como argumento en su constructor su capacidad maxima en litros
+Tendrá 2 métodos:
+
+- capacidadActual(): Devuelve la capacidad actual de la piscina
+- anadirLitros(litros): Anade litros a la piscina, si la suma de los litros supera la capacidad maxima, lanza una excepcion de tipo PiscinaException
+- quitarLitros(litros): Quita litros de la piscina, si la resta de los litros es negativa, lanza una excepcion de tipo PiscinaException
+
+c) Crea otra clase llamada AppPiscina donde realices las siguientes pruebas.
+- Crea una piscina de 1000 litros
+- Anade 500 litros
+- Anade 600 litros
+- Quita 500 litros
+- Quita 700 litros
+
+Despues de agregar o quitar litros, muestra la capacidad actual
+
+d) ¿Se te ocurre alguna manera de permitir que la aplicación siga funcionando aunque se produzca una excepcion? Para ello solo puedes modificar tu clase AppPiscina
+e) Modifica tu clase PiscinaException para que ahora herede de RuntimeException ¿qué provoca esto en tu aplicación?
 
 
 ## Anexo: Más Ejercicios
