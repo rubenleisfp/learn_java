@@ -892,7 +892,7 @@ Intenta realizar el test unitario para `Detergente`, dónde compruebes que funci
 
 Como puedes ver, los test aportan seguridad a nuestro código para asegurarnos que cumple con el propósito para el que fue creado, que no se nos escapa algún caso que no teníamos contemplado y que en caso de cambios en el mismo, tenemos un mecanismo para verificar que sigue funcionando como se esperaba.
 
-### **Grupo 9 - Polimorfismo**
+### **Grupo 9 - Excepciones**
 
 ### **Actividad 901: Piscina**
 Dentro del paquete org.learn.excepcion.actividad901
