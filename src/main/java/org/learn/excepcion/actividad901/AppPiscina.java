@@ -1,4 +1,4 @@
-package org.learn.excepcion;
+package org.learn.excepcion.actividad901;
 
 public class AppPiscina {
     public static void main(String[] args) {

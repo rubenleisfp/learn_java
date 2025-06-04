@@ -73,7 +73,7 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [Conceptos de Clases y Objetos](https://www.w3schools.com/java/java_classes.asp)
 - [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
-### 4 - Static 
+### 4 - Static
 
 - [Explicación de Static](https://javamagician.com/java-palabra-clave-static/)
 
@@ -82,7 +82,7 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
 - [Map](https://www.w3schools.com/java/java_hashmap.asp)
 - [Comparator](https://www.baeldung.com/java-comparator-comparable)
-  
+
 ### 6 - Herencia
 
 - [Abstracción](https://www.w3schools.com/java/java_abstract.asp)
@@ -241,7 +241,7 @@ public class App {
 3. Crea una función llamada calcularPerimetro que reciba el lado y devuelva el perimetro
 4. No es necesario pedir los datos al usuario. Pueden estar escritos directamente en el main
 
-#### **Actividad 220: Condicionales** 
+#### **Actividad 220: Condicionales**
 #Condicionales
 1. Crea un paquete `org.learn.basico.actividad220`.
 2. Escribe un programa que reciba dos números e indique cuál es mayor y para cada uno de ellos si es par o impar.
@@ -311,7 +311,7 @@ C,B,A
 #Bucles #Operaciones
 1. Crea un paquete llamado `org.learn.basico.actividad233`.
 2. Escribe un programa en Java que para un numero entero
-muestre por la salida la suma de todos los números anteriores al número recibido.
+   muestre por la salida la suma de todos los números anteriores al número recibido.
 3. No es necesario pedir los datos al usuario. Los puede tener escritos directamente en el main
 
 
@@ -474,7 +474,7 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 1. Crea un paquete llamado `org.learn.clases.actividad312`.
 2. Crea una clase Motor con los atributos potencia y tipo (por ejemplo, "eléctrico" o "gasolina").
-2. Luego, crea una clase Coche para que tenga un objeto de tipo Motor. 
+2. Luego, crea una clase Coche para que tenga un objeto de tipo Motor.
 3. En una clase principal llamada AppCoche,en el main(), crea un coche con su motor e imprime la información.
 
 #### **Actividad 303: Clase Coche acelerar**
@@ -483,7 +483,7 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 2. Crea una clase Motor y Coche, iguales que las del ejercicio 302
 3. En la clase Coche, crea un nuevo atributo llamado velocidad
 3. En la clase coche, crea 2 métodos acelerar. El primero incrementará la velocidad en 10km y el segundo recibirá un argumento
-para incrementar lo que gustemos.
+   para incrementar lo que gustemos.
 4. En la clase AppCoche, crea 2 coches y haz que incrementen su velocidad de forma aleatoria
 
 #### **Actividad 312: Clase Cuenta**
@@ -635,7 +635,7 @@ En la rama starter ya se provee una maqueta
 - El mapa de cifrado/descifrado es el siguiente:
 
   | Original | Cifrado/Descifrado |
-      |----------|--------------------|
+          |----------|--------------------|
   | 0        | 9                  |
   | 1        | 1                  |
   | 2        | 3                  |
@@ -695,16 +695,16 @@ En la rama starter ya se provee una maqueta
 
 5. Filtra la lista para quedarte solo con las películas de un género específico (por ejemplo, "Acción").
 6. Ordena la lista de peliculas por su calificacion primero de forma ascendente y luego descendente.
-7. Quedate con las n primeras peliculas que indique el usuario 
+7. Quedate con las n primeras peliculas que indique el usuario
 
 #### **Actividad 516: Carta mas alta**
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
 2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
 3. Podrá indicarse el número de rondas a disputar
 3. Podrá haber n parcipantes, se pedirá al usuario los nombres de estos por la entrada standard hasta que escriba
-la palabra FIN
+   la palabra FIN
 4. En ese momento se creará una partida, en la cual se repartirá una carta a cada jugador, obviamente
-la baraja no puede tener cartas repetidas.
+   la baraja no puede tener cartas repetidas.
 5. Ganará el jugador con la carta mas alta
 
 ![Juego carta mas alta](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/carta_mas_alta.png)
@@ -900,13 +900,13 @@ Dentro del paquete org.learn.excepcion.actividad901
 a) Crea una clase PiscinaException que herede de Exception. Recibirá un String con el motivo de la excepcion
 
 b) Crea una clase piscina que reciba como argumento en su constructor su capacidad maxima en litros
-Tendrá 2 métodos:
+Tendrá 3 métodos:
 
 - capacidadActual(): Devuelve la capacidad actual de la piscina
 - anadirLitros(litros): Anade litros a la piscina, si la suma de los litros supera la capacidad maxima, lanza una excepcion de tipo PiscinaException
 - quitarLitros(litros): Quita litros de la piscina, si la resta de los litros es negativa, lanza una excepcion de tipo PiscinaException
 
-c) Crea otra clase llamada AppPiscina donde realices las siguientes pruebas. 
+c) Crea otra clase llamada AppPiscina donde realices las siguientes pruebas.
 - Crea una piscina de 1000 litros
 - Anade 500 litros
 - Anade 600 litros
@@ -916,7 +916,26 @@ c) Crea otra clase llamada AppPiscina donde realices las siguientes pruebas.
 Despues de agregar o quitar litros, muestra la capacidad actual
 
 d) ¿Se te ocurre alguna manera de permitir que la aplicación siga funcionando aunque se produzca una excepcion? Para ello solo puedes modificar tu clase AppPiscina
+
 e) Modifica tu clase PiscinaException para que ahora herede de RuntimeException ¿qué provoca esto en tu aplicación?
+
+### **Actividad 902: ConversorTemperatura**
+Dentro del paquete org.learn.excepcion.actividad902
+
+Crea una clase llamada `ConversorTemperatura` con un método:
+
+public static double convertirACelsius(String valorFahrenheit) throws ValorNoNumericoException
+
+Este método debe:
+
+Intentar convertir el String recibido a un número decimal (double).
+
+Si el valor no es numérico (por ejemplo, "abc"), debe lanzar una excepción personalizada llamada ValorNoNumericoException, que debe ser de tipo checked (extiende Exception).
+
+Si el valor es numérico, calcular los grados Celsius usando la siguiente fórmula:
+
+Celsius = (Fahrenheit - 32) * 5 / 9
+Devolver el valor en grados Celsius.
 
 
 ## Anexo: Más Ejercicios
