@@ -900,7 +900,7 @@ Dentro del paquete org.learn.excepcion.actividad901
 a) Crea una clase PiscinaException que herede de Exception. Recibirá un String con el motivo de la excepcion
 
 b) Crea una clase piscina que reciba como argumento en su constructor su capacidad maxima en litros
-Tendrá 2 métodos:
+Tendrá 3 métodos:
 
 - capacidadActual(): Devuelve la capacidad actual de la piscina
 - anadirLitros(litros): Anade litros a la piscina, si la suma de los litros supera la capacidad maxima, lanza una excepcion de tipo PiscinaException
@@ -916,7 +916,26 @@ c) Crea otra clase llamada AppPiscina donde realices las siguientes pruebas.
 Despues de agregar o quitar litros, muestra la capacidad actual
 
 d) ¿Se te ocurre alguna manera de permitir que la aplicación siga funcionando aunque se produzca una excepcion? Para ello solo puedes modificar tu clase AppPiscina
+
 e) Modifica tu clase PiscinaException para que ahora herede de RuntimeException ¿qué provoca esto en tu aplicación?
+
+### **Actividad 902: ConversorTemperatura**
+Dentro del paquete org.learn.excepcion.actividad902
+
+Crea una clase llamada `ConversorTemperatura` con un método:
+
+public static double convertirACelsius(String valorFahrenheit) throws ValorNoNumericoException
+
+Este método debe:
+
+Intentar convertir el String recibido a un número decimal (double).
+
+Si el valor no es numérico (por ejemplo, "abc"), debe lanzar una excepción personalizada llamada ValorNoNumericoException, que debe ser de tipo checked (extiende Exception).
+
+Si el valor es numérico, calcular los grados Celsius usando la siguiente fórmula:
+
+Celsius = (Fahrenheit - 32) * 5 / 9
+Devolver el valor en grados Celsius.
 
 
 ## Anexo: Más Ejercicios
