@@ -1,5 +1,5 @@
 ﻿# Learning Java
-#Nuevoejercicio
+ 
 ## Objetivo
 
 Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué ejercicios pueden realizar para practicar su uso. Se proporciona una base teórica que tiene su correspondencia con actividades de refuerzo, de tal manera que el alumno deberá primero informarse sobre la teoría para luego aplicarla realizando los ejercicios correspondientes.
