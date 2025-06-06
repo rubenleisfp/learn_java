@@ -541,7 +541,7 @@ Además, crearás una clase llamada **Tienda** que tendrá:
 - Una variable para almacenar el importe total de las ventas realizadas
 
 Instrucciones:
-1. Crea una clase llamada **Producto** con variables de instancia para el nombre y el precio del producto,
+1. Dentro del paquete org.learn.staticproperty. Crea una clase llamada **Producto** con variables de instancia para el nombre y el precio del producto,
 2. Define un constructor para la clase **Producto** que tome el nombre y el precio del producto como parámetros.
 3. Crea una clase llamada **Tienda** con dos variables estáticas:
     - Número de ventas
@@ -550,6 +550,31 @@ Instrucciones:
 5. En el método `main`, crea varios objetos **Producto**, realiza ventas y luego imprime tanto el total de productos vendidos como el total de ventas en la tienda.
 
 ![Ejemplo 402](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad402_ejemplo.PNG)
+
+
+### **Actividad 403: Tienda de Productos**
+Objetivo: Comprender el uso de atributos static para mantener información compartida entre todos los objetos de una clase.
+
+Enunciado
+Queremos simular el consumo eléctrico total de una vivienda a partir de los aparatos eléctricos que están encendidos.
+
+Dispones de la clase AparatoElectrico, que representa un aparato con una determinada potencia en vatios. Cada vez que un aparato se enciende, su consumo se añade al total; cuando se apaga, su consumo se descuenta. Este consumo total debe mantenerse mediante un atributo estático compartido por todos los objetos de la clase.
+
+Debes implementar los siguientes los métodos necesario y el constructor:
+
+
+Clase ConsumoElectrico
+Ya tienes preparado un programa de prueba (ConsumoElectrico.java) que te permitirá comprobar si tu implementación es correcta. No necesitas modificar esta clase.
+
+Salida esperada
+
+El consumo electrico es 0.0
+
+El consumo electrico es 2150.0
+
+El consumo electrico es 150.0
+
+✅ Pista: El atributo consumoTotal debe cambiar solo cuando el estado del aparato cambie realmente (de apagado a encendido o viceversa).
 
 ### **Grupo 5 - Colecciones**
 
