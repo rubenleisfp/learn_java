@@ -552,7 +552,7 @@ Instrucciones:
 ![Ejemplo 402](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad402_ejemplo.PNG)
 
 
-### **Actividad 403: Tienda de Productos**
+### **Actividad 403: Sistema eléctrico**
 Objetivo: Comprender el uso de atributos static para mantener información compartida entre todos los objetos de una clase.
 
 Enunciado
