@@ -1,5 +1,5 @@
 ﻿# Learning Java
- 
+
 ## Objetivo
 
 Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué ejercicios pueden realizar para practicar su uso. Se proporciona una base teórica que tiene su correspondencia con actividades de refuerzo, de tal manera que el alumno deberá primero informarse sobre la teoría para luego aplicarla realizando los ejercicios correspondientes.
@@ -472,14 +472,14 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 #### **Actividad 302: Clase Coche**
 
-1. Crea un paquete llamado `org.learn.clases.actividad312`.
+1. Crea un paquete llamado `org.learn.clases.actividad302`.
 2. Crea una clase Motor con los atributos potencia y tipo (por ejemplo, "eléctrico" o "gasolina").
 2. Luego, crea una clase Coche para que tenga un objeto de tipo Motor.
 3. En una clase principal llamada AppCoche,en el main(), crea un coche con su motor e imprime la información.
 
 #### **Actividad 303: Clase Coche acelerar**
 
-1. Crea un paquete llamado `org.learn.clases.actividad313`.
+1. Crea un paquete llamado `org.learn.clases.actividad303`.
 2. Crea una clase Motor y Coche, iguales que las del ejercicio 302
 3. En la clase Coche, crea un nuevo atributo llamado velocidad
 3. En la clase coche, crea 2 métodos acelerar. El primero incrementará la velocidad en 10km y el segundo recibirá un argumento
@@ -541,7 +541,7 @@ Además, crearás una clase llamada **Tienda** que tendrá:
 - Una variable para almacenar el importe total de las ventas realizadas
 
 Instrucciones:
-1. Dentro del paquete org.learn.staticproperty. Crea una clase llamada **Producto** con variables de instancia para el nombre y el precio del producto,
+1. Crea una clase llamada **Producto** con variables de instancia para el nombre y el precio del producto,
 2. Define un constructor para la clase **Producto** que tome el nombre y el precio del producto como parámetros.
 3. Crea una clase llamada **Tienda** con dos variables estáticas:
     - Número de ventas
@@ -550,31 +550,6 @@ Instrucciones:
 5. En el método `main`, crea varios objetos **Producto**, realiza ventas y luego imprime tanto el total de productos vendidos como el total de ventas en la tienda.
 
 ![Ejemplo 402](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad402_ejemplo.PNG)
-
-
-### **Actividad 403: Sistema eléctrico**
-Objetivo: Comprender el uso de atributos static para mantener información compartida entre todos los objetos de una clase.
-
-Enunciado
-Queremos simular el consumo eléctrico total de una vivienda a partir de los aparatos eléctricos que están encendidos.
-
-Dispones de la clase AparatoElectrico, que representa un aparato con una determinada potencia en vatios. Cada vez que un aparato se enciende, su consumo se añade al total; cuando se apaga, su consumo se descuenta. Este consumo total debe mantenerse mediante un atributo estático compartido por todos los objetos de la clase.
-
-Debes implementar los siguientes los métodos necesario y el constructor:
-
-
-Clase ConsumoElectrico
-Ya tienes preparado un programa de prueba (ConsumoElectrico.java) que te permitirá comprobar si tu implementación es correcta. No necesitas modificar esta clase.
-
-Salida esperada
-
-El consumo electrico es 0.0
-
-El consumo electrico es 2150.0
-
-El consumo electrico es 150.0
-
-✅ Pista: El atributo consumoTotal debe cambiar solo cuando el estado del aparato cambie realmente (de apagado a encendido o viceversa).
 
 ### **Grupo 5 - Colecciones**
 
@@ -660,7 +635,7 @@ En la rama starter ya se provee una maqueta
 - El mapa de cifrado/descifrado es el siguiente:
 
   | Original | Cifrado/Descifrado |
-        |----------|--------------------|
+            |----------|--------------------|
   | 0        | 9                  |
   | 1        | 1                  |
   | 2        | 3                  |
