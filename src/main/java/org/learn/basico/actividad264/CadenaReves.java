@@ -2,20 +2,16 @@ package org.learn.basico.actividad264;
 
 public class CadenaReves {
     public static void main(String[] args) {
-        System.out.println(cadenaReves("hola"));
+        System.out.println(cadenaReves("Me gusta mucho la programación"));
     }
 
-    private static boolean cadenaReves(String hola) {
-        char[] chars = hola.toCharArray();
-        int i = 0;
-        int j = chars.length - 1;
-        while (i < j) {
-            char temp = chars[i];
-            chars[i] = chars[j];
-            chars[j] = temp;
-            i++;
-            j--;
+    private static String cadenaReves(String frase) {
+        String[] palabras= frase.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for (int i= palabras.length-1;i>=0;i--) {
+            sb.append(palabras[i]);
+            sb.append(" ");
         }
-        return hola.equals(new String(chars));
+        return sb.toString();
     }
 }
