@@ -362,7 +362,7 @@ Promedio: 4
 ##### Ejemplo:
 5 true  
 4 false  
-1060 es la suma de los 100 primeros primos
+1060 es la suma de los números que son primos hasta 100
 
 #### **Actividad 237: Clasificación de Números**
 #Bucles #Condicionales #Operaciones
