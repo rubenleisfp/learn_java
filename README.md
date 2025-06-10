@@ -472,14 +472,14 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 
 #### **Actividad 302: Clase Coche**
 
-1. Crea un paquete llamado `org.learn.clases.actividad312`.
+1. Crea un paquete llamado `org.learn.clases.actividad302`.
 2. Crea una clase Motor con los atributos potencia y tipo (por ejemplo, "eléctrico" o "gasolina").
 2. Luego, crea una clase Coche para que tenga un objeto de tipo Motor.
 3. En una clase principal llamada AppCoche,en el main(), crea un coche con su motor e imprime la información.
 
 #### **Actividad 303: Clase Coche acelerar**
 
-1. Crea un paquete llamado `org.learn.clases.actividad313`.
+1. Crea un paquete llamado `org.learn.clases.actividad303`.
 2. Crea una clase Motor y Coche, iguales que las del ejercicio 302
 3. En la clase Coche, crea un nuevo atributo llamado velocidad
 3. En la clase coche, crea 2 métodos acelerar. El primero incrementará la velocidad en 10km y el segundo recibirá un argumento
