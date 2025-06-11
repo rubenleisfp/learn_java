@@ -698,6 +698,7 @@ En la rama starter ya se provee una maqueta
 7. Quedate con las n primeras peliculas que indique el usuario
 
 #### **Actividad 516: Carta mas alta**
+#Composición
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
 2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
 3. Podrá indicarse el número de rondas a disputar
@@ -713,7 +714,58 @@ Hint:
 
 ![UML Diagrama de clases](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad_516_UML_Juego_Cartas.PNG)
 
+#### **Actividad 517: Gestión pedidos**
+#Composión
+1. Crea un paquete llamado org.learn.colecciones.actividad517.
+2. Implementar las clases necesarias para representar pedidos.
+3. Enunciado: Vais a implementar un sistema sencillo para gestionar los pedidos de una tienda online.
+   La aplicación debe permitir representar clientes, productos y pedidos.
+4. Clase a implementar:
+```java
 
+Producto
+
+String nombre
+
+double precio
+        
+        
+
+Cliente
+
+String nombre
+
+String email
+        
+        
+
+Pedido
+
+Cliente cliente → un pedido está asociado a un cliente (composición)
+
+List<Producto> productos → un pedido contiene una lista de productos (composición)
+
+LocalDate fecha
+```
+
+5. Requisitos:
+* Implementa los constructores, getters/setters y un método toString() en cada clase.
+
+* En la clase Pedido, implementa:
+
+    * Un método double calcularTotal() que devuelve el precio total del pedido.
+
+    * Un método void añadirProducto(Producto p) que añade un producto a la lista.
+
+* En una clase Main, crea:
+
+    * Al menos dos clientes.
+
+    * Varios productos.
+
+    * Dos pedidos con diferentes combinaciones de productos.
+
+    * Muestra por pantalla los detalles de los pedidos y su importe total.
 
 ### **Grupo 6 - Herencia**
 
