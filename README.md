@@ -527,36 +527,6 @@ Atributos de la clase `NaveEspacial`:
 
 Crea una clase `App` para crear una nave espacial y probar los movimientos posibles. Después de cada movimiento, muestra la posición actual.
 
-#### **Actividad 314: Simulación básica de un coche con motor**
-#Composición
-1. Crea un paquete llamado `org.learn.clases.actividad314`.
-
-2. Vais a crear un programa sencillo que modele un Coche que contiene un Motor. El objetivo es entender cómo una clase puede contener otra clase como atributo (composición).
-3. Clases a implementar:
- ```java
-Motor
-
-String tipo (por ejemplo: "Diesel", "Gasolina", "Eléctrico")
-
-int caballos (potencia del motor)
-
-Método toString()
-    
-    
-
-Coche
-
-String marca
-
-String modelo
-
-Motor motor → el coche tiene un motor (composición)
-
-Método toString() para mostrar todos los detalles del coche y del motor.
- ```
-4.Requisitos:
-Crea un par de coches con distintos motores y muestra sus datos por pantalla.
-
 ### **Grupo 4 - Static**
 
 Resumen:
