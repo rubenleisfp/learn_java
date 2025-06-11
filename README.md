@@ -527,6 +527,36 @@ Atributos de la clase `NaveEspacial`:
 
 Crea una clase `App` para crear una nave espacial y probar los movimientos posibles. Después de cada movimiento, muestra la posición actual.
 
+#### **Actividad 314: Simulación básica de un coche con motor**
+#Composición
+1. Crea un paquete llamado `org.learn.clases.actividad314`.
+
+2. Vais a crear un programa sencillo que modele un Coche que contiene un Motor. El objetivo es entender cómo una clase puede contener otra clase como atributo (composición).
+3. Clases a implementar:
+ ```java
+Motor
+
+String tipo (por ejemplo: "Diesel", "Gasolina", "Eléctrico")
+
+int caballos (potencia del motor)
+
+Método toString()
+    
+    
+
+Coche
+
+String marca
+
+String modelo
+
+Motor motor → el coche tiene un motor (composición)
+
+Método toString() para mostrar todos los detalles del coche y del motor.
+ ```
+4.Requisitos:
+Crea un par de coches con distintos motores y muestra sus datos por pantalla.
+
 ### **Grupo 4 - Static**
 
 Resumen:
@@ -698,6 +728,7 @@ En la rama starter ya se provee una maqueta
 7. Quedate con las n primeras peliculas que indique el usuario
 
 #### **Actividad 516: Carta mas alta**
+#Composición
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
 2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
 3. Podrá indicarse el número de rondas a disputar
@@ -713,7 +744,58 @@ Hint:
 
 ![UML Diagrama de clases](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad_516_UML_Juego_Cartas.PNG)
 
+#### **Actividad 517: Gestión pedidos**
+#Composión
+1. Crea un paquete llamado org.learn.colecciones.actividad517.
+2. Implementar las clases necesarias para representar pedidos.
+3. Enunciado: Vais a implementar un sistema sencillo para gestionar los pedidos de una tienda online. 
+La aplicación debe permitir representar clientes, productos y pedidos.
+4. Clase a implementar:
+```java
 
+Producto
+
+String nombre
+
+double precio
+        
+        
+
+Cliente
+
+String nombre
+
+String email
+        
+        
+
+Pedido
+
+Cliente cliente → un pedido está asociado a un cliente (composición)
+
+List<Producto> productos → un pedido contiene una lista de productos (composición)
+
+LocalDate fecha
+```
+
+5. Requisitos:
+* Implementa los constructores, getters/setters y un método toString() en cada clase.
+
+* En la clase Pedido, implementa:
+
+  * Un método double calcularTotal() que devuelve el precio total del pedido.
+
+  * Un método void añadirProducto(Producto p) que añade un producto a la lista.
+
+* En una clase Main, crea:
+
+  * Al menos dos clientes.
+
+  * Varios productos.
+
+  * Dos pedidos con diferentes combinaciones de productos.
+
+  * Muestra por pantalla los detalles de los pedidos y su importe total.
 
 ### **Grupo 6 - Herencia**
 
