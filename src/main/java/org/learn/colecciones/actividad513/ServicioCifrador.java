@@ -36,7 +36,7 @@ public class ServicioCifrador {
             if (cifrado.containsKey(c)) {
                 cifradoTelefono.append(cifrado.get(c));
             } else {
-                cifradoTelefono.append(c);
+                throw new IllegalArgumentException("Caracter no encontrado en el mapa");
             }
         }
         return cifradoTelefono.toString();

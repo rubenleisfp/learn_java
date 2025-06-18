@@ -634,10 +634,10 @@ En la rama starter ya se provee una maqueta
 - Después de introducir el modo de funcionamiento, el usuario introducirá el número de teléfono a cifrar o descifrar.
 - El mapa de cifrado/descifrado es el siguiente:
 
-  | Original | Cifrado/Descifrado |
-          |----------|--------------------|
-  | 0        | 9                  |
-  | 1        | 1                  |
+  | Original | Cifrado/Descifrado | 
+  |----------|--------------------|
+  | 0        | 1                  |
+  | 1        | 9                  |
   | 2        | 3                  |
   | 3        | 7                  |
   | 4        | 8                  |
