@@ -71,6 +71,7 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 ### 3 - Clases y Objetos
 
 - [Conceptos de Clases y Objetos](https://www.w3schools.com/java/java_classes.asp)
+- [Relaciones](https://www.geeksforgeeks.org/java/association-composition-aggregation-java/)
 - [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
 ### 4 - Static
@@ -698,7 +699,7 @@ En la rama starter ya se provee una maqueta
 7. Quedate con las n primeras peliculas que indique el usuario
 
 #### **Actividad 516: Carta mas alta**
-#Composición
+#Relaciones
 1. Crea un paquete llamado org.learn.colecciones.actividad516.
 2. Implementar las clases necesarias para representar un partida de cartas al juego de "Carta mas alta".
 3. Podrá indicarse el número de rondas a disputar
@@ -715,7 +716,7 @@ Hint:
 ![UML Diagrama de clases](https://github.com/rubenleisfp/java_learn/blob/main/src/main/resources/git_images/actividad_516_UML_Juego_Cartas.PNG)
 
 #### **Actividad 517: Gestión pedidos**
-#Composión
+#Relaciones
 1. Crea un paquete llamado org.learn.colecciones.actividad517.
 2. Implementar las clases necesarias para representar pedidos.
 3. Enunciado: Vais a implementar un sistema sencillo para gestionar los pedidos de una tienda online.
@@ -741,9 +742,9 @@ String email
 
 Pedido
 
-Cliente cliente → un pedido está asociado a un cliente (composición)
+Cliente cliente → un pedido está asociado a un cliente (relacion)
 
-List<Producto> productos → un pedido contiene una lista de productos (composición)
+List<Producto> productos → un pedido contiene una lista de productos (relacion)
 
 LocalDate fecha
 ```
