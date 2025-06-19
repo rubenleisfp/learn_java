@@ -71,8 +71,6 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 ### 3 - Clases y Objetos
 
 - [Conceptos de Clases y Objetos](https://www.w3schools.com/java/java_classes.asp)
-- [Relaciones](https://www.geeksforgeeks.org/java/association-composition-aggregation-java/)
-- [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
 ### 4 - Static
 
@@ -83,6 +81,8 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
 - [Map](https://www.w3schools.com/java/java_hashmap.asp)
 - [Comparator](https://www.baeldung.com/java-comparator-comparable)
+- [Relaciones](https://www.geeksforgeeks.org/java/association-composition-aggregation-java/)
+- [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
 ### 6 - Herencia
 
@@ -636,7 +636,7 @@ En la rama starter ya se provee una maqueta
 - El mapa de cifrado/descifrado es el siguiente:
 
   | Original | Cifrado/Descifrado | 
-  |----------|--------------------|
+    |----------|--------------------|
   | 0        | 1                  |
   | 1        | 9                  |
   | 2        | 3                  |
@@ -719,8 +719,8 @@ Hint:
 #Relaciones
 1. Crea un paquete llamado org.learn.colecciones.actividad517.
 2. Implementar las clases necesarias para representar pedidos.
-3. Enunciado: Vais a implementar un sistema sencillo para gestionar los pedidos de una tienda online. 
-La aplicación debe permitir representar clientes, productos y pedidos.
+3. Enunciado: Vais a implementar un sistema sencillo para gestionar los pedidos de una tienda online.
+   La aplicación debe permitir representar clientes, productos y pedidos.
 4. Clase a implementar:
 ```java
 
@@ -754,19 +754,19 @@ LocalDate fecha
 
 * En la clase Pedido, implementa:
 
-  * Un método double calcularTotal() que devuelve el precio total del pedido.
+    * Un método double calcularTotal() que devuelve el precio total del pedido.
 
-  * Un método void añadirProducto(Producto p) que añade un producto a la lista.
+    * Un método void añadirProducto(Producto p) que añade un producto a la lista.
 
 * En una clase Main, crea:
 
-  * Al menos dos clientes.
+    * Al menos dos clientes.
 
-  * Varios productos.
+    * Varios productos.
 
-  * Dos pedidos con diferentes combinaciones de productos.
+    * Dos pedidos con diferentes combinaciones de productos.
 
-  * Muestra por pantalla los detalles de los pedidos y su importe total.
+    * Muestra por pantalla los detalles de los pedidos y su importe total.
 
 ### **Grupo 6 - Herencia**
 
