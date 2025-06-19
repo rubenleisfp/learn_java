@@ -71,8 +71,6 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 ### 3 - Clases y Objetos
 
 - [Conceptos de Clases y Objetos](https://www.w3schools.com/java/java_classes.asp)
-- [Relaciones](https://www.geeksforgeeks.org/java/association-composition-aggregation-java/)
-- [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
 ### 4 - Static
 
@@ -83,6 +81,8 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
 - [Map](https://www.w3schools.com/java/java_hashmap.asp)
 - [Comparator](https://www.baeldung.com/java-comparator-comparable)
+- [Relaciones](https://www.geeksforgeeks.org/java/association-composition-aggregation-java/)
+- [Composicion](https://www.arquitecturajava.com/java-composicion-y-la-reutilizacion-del-codigo/)
 
 ### 6 - Herencia
 
