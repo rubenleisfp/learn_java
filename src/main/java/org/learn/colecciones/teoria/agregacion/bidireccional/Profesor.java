@@ -7,14 +7,12 @@ public class Profesor {
 
     private String nombre;
     private int clave;
-
-
-
     private Departamento departamento;
 
     Profesor(int clave, String nombre) {
         this.clave = clave;
         this.nombre = nombre;
+
     }
 
     void evaluar(Alumno alumno) {
