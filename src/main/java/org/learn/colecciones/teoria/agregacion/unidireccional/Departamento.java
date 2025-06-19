@@ -6,7 +6,8 @@ class Departamento {
     private String nombre;
     private List<Profesor> profesores; // agregación
 
-    public Departamento(String nombre,List<Profesor> profesores) {
+
+    public Departamento(String nombre, List<Profesor> profesores) {
         this.nombre = nombre;
         this.profesores = profesores;
     }
