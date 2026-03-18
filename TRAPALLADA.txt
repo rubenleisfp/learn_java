@@ -1,3 +1,0 @@
-Adios mundo
-Bye
-f.close();
