@@ -8,14 +8,8 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 
 ## Teoría
 
-### Videotutoriales de Programación
-
-- [Curso Gratis Java Para Principiantes](https://www.youtube.com/watch?v=qxXcI56NfnE&ab_channel=TodoCode)
-- [JAVA Desde Cero: Primeros Pasos en una Hora](https://www.udemy.com/course/algoritmos-desde-cero/)
-- [Aprende Java con Brais Moure](https://github.com/mouredev/hello-java/tree/main)
-
 ### 0 - Aprende algoritmos y diagramas de flujo
-
+- [Curso Introduccion programacion] (https://todocodeacademy.com/lesson/bienvenida/)
 - [Algoritmo y diagrama de flujo](https://www.youtube.com/watch?v=SZTXmCbfjP0&ab_channel=CompilaTec)
 - [Diagramas de flujo](https://www.youtube.com/watch?v=1frV9cIgAow&list=PL46-B5QR6sHm_qTw3tet7XHynE8bEucoa&index=8&ab_channel=EstudiaConMarisol)
 
@@ -32,6 +26,11 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 - [Bucles](http://lsi.vc.ehu.es/asignaturas/Inf_Bas/2005-06/comun/05%20Bucles.pdf)
 - [Diagramas de Flujo - Área Tecnología](https://www.areatecnologia.com/diagramas-de-flujo.htm#google_vignette)
 
+#### Videotutoriales de Programación
+
+- [Curso Gratis Java Para Principiantes](https://www.youtube.com/watch?v=qxXcI56NfnE&ab_channel=TodoCode)
+- [JAVA Desde Cero: Primeros Pasos en una Hora](https://www.udemy.com/course/algoritmos-desde-cero/)
+- [Aprende Java con Brais Moure](https://github.com/mouredev/hello-java/tree/main)
 
 ### 1 - Entorno: IntelliJ, Debug, Librerías y Maven
 
