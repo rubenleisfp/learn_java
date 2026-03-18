@@ -9,7 +9,7 @@ Proporcionar una guía a los alumnos sobre qué contenido ver sobre Java y qué 
 ## Teoría
 
 ### 0 - Aprende algoritmos y diagramas de flujo
-- [Curso Introduccion programacion] (https://todocodeacademy.com/lesson/bienvenida/)
+- [Curso Introduccion programacion](https://todocodeacademy.com/lesson/bienvenida/)
 - [Algoritmo y diagrama de flujo](https://www.youtube.com/watch?v=SZTXmCbfjP0&ab_channel=CompilaTec)
 - [Diagramas de flujo](https://www.youtube.com/watch?v=1frV9cIgAow&list=PL46-B5QR6sHm_qTw3tet7XHynE8bEucoa&index=8&ab_channel=EstudiaConMarisol)
 
