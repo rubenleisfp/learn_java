@@ -415,8 +415,9 @@ Elementos impares: 1 3 5
 #### **Actividad 253: Multiplicar Matriz**
 #Array
 1. Crea un paquete llamado `org.learn.basico.actividad253`.
-2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros.
-3. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
+2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros. No queremos multiplicar matrices como en Matemáticas, queremos simplemente
+multiplicar el contenido de las celdas de la matriz o array, tal y como se ve en el ejemplo
+4. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
 
 ##### Salida de muestra:
 Matriz1: [1, 3, -5, 4]  
