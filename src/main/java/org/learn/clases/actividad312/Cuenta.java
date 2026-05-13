@@ -1,23 +1,23 @@
 package org.learn.clases.actividad312;
 public class Cuenta {
     private String titular;
-    private double cantidad;
+    private double saldo;
 
 
 
     // Constructor con titular obligatorio y cantidad opcional
     public Cuenta(String titular) {
         this.titular = titular;
-        this.cantidad = 0;
+        this.saldo = 0;
     }
 
     // Constructor con titular y cantidad
     public Cuenta(String titular, double cantidad) {
         this.titular = titular;
         if (cantidad >= 0) {
-            this.cantidad = cantidad;
+            this.saldo = cantidad;
         } else {
-            this.cantidad = 0;
+            this.saldo = 0;
         }
     }
 
@@ -30,29 +30,29 @@ public class Cuenta {
         this.titular = titular;
     }
 
-    public double getCantidad() {
-        return cantidad;
+    public double getSaldo() {
+        return saldo;
     }
 
-    public void setCantidad(double cantidad) {
+    public void setSaldo(double cantidad) {
         if (cantidad >= 0) {
-            this.cantidad = cantidad;
+            this.saldo = cantidad;
         }
     }
 
     // Método para ingresar dinero en la cuenta
     public void ingresar(double cantidad) {
         if (cantidad > 0) {
-            this.cantidad += cantidad;
+            this.saldo += cantidad;
         }
     }
 
     // Método para retirar dinero de la cuenta
     public void retirar(double cantidad) {
-        if (this.cantidad - cantidad >= 0) {
-            this.cantidad -= cantidad;
+        if (this.saldo - cantidad >= 0) {
+            this.saldo -= cantidad;
         } else {
-            this.cantidad = 0;
+            this.saldo = 0;
         }
     }
 
@@ -61,7 +61,7 @@ public class Cuenta {
     public String toString() {
         return "Cuenta{" +
                 "titular='" + titular + '\'' +
-                ", cantidad=" + cantidad +
+                ", saldo=" + saldo +
                 '}';
     }
 }

@@ -415,8 +415,9 @@ Elementos impares: 1 3 5
 #### **Actividad 253: Multiplicar Matriz**
 #Array
 1. Crea un paquete llamado `org.learn.basico.actividad253`.
-2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros.
-3. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
+2. Escriba un programa Java para multiplicar los elementos correspondientes de dos matrices de enteros. No queremos multiplicar matrices como en Matemáticas, queremos simplemente
+   multiplicar el contenido de las celdas de la matriz o array, tal y como se ve en el ejemplo
+4. Las matrices serán siempre de una dimensión y tendrán 4 elementos.
 
 ##### Salida de muestra:
 Matriz1: [1, 3, -5, 4]  
@@ -491,18 +492,18 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 1. Crea un paquete llamado `org.learn.clases.actividad312`.
 2. Crea una clase llamada `Cuenta` con los siguientes atributos:
     - `titular`: obligatorio.
-    - `cantidad`: opcional, puede tener decimales.
+    - `saldo`: opcional, puede tener decimales.
 3. Crea dos constructores que cumplan lo anterior.
 4. Implementa los métodos `get`, `set` y `toString`.
 5. Métodos especiales:
-    - `ingresar(double cantidad)`: Si la cantidad es negativa, no se hará nada.
-    - `retirar(double cantidad)`: Si el saldo resulta negativo, pasa a ser 0.
+    - `ingresar(double cantidad)`: Ingresa la cantidad en la cuenta, aumentado su saldo. Si la cantidad es negativa, no se hará nada.
+    - `retirar(double cantidad)`: Disminuye la cantidad del saldo. Si el saldo resulta negativo, pasa a ser 0 (es un banco generoso)
 
 Crea una clase `App` para realizar operaciones de ingreso y retiro en una cuenta.
 
 #### **Actividad 313: Transferencias entre Cuentas**
 
-1. En la clase `App`, crea un método para transferir dinero entre cuentas:
+1. En la clase `Cuenta`, crea un método para transferir dinero entre cuentas:
    ```java
    public void transferencia(double cantidad, Cuenta cuentaDestino) {
    ```
@@ -635,7 +636,7 @@ En la rama starter ya se provee una maqueta
 - El mapa de cifrado/descifrado es el siguiente:
 
   | Original | Cifrado/Descifrado | 
-    |----------|--------------------|
+      |----------|--------------------|
   | 0        | 1                  |
   | 1        | 9                  |
   | 2        | 3                  |
@@ -728,16 +729,16 @@ Producto
 String nombre
 
 double precio
-        
-        
+
+
 
 Cliente
 
 String nombre
 
 String email
-        
-        
+
+
 
 Pedido
 

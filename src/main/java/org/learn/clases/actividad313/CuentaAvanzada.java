@@ -1,21 +1,21 @@
 package org.learn.clases.actividad313;
 public class CuentaAvanzada {
     private String titular;
-    private double cantidad;
+    private double saldo;
 
     // Constructor con titular obligatorio y cantidad opcional
     public CuentaAvanzada(String titular) {
         this.titular = titular;
-        this.cantidad = 0;
+        this.saldo = 0;
     }
 
     // Constructor con titular y cantidad
-    public CuentaAvanzada(String titular, double cantidad) {
+    public CuentaAvanzada(String titular, double saldo) {
         this.titular = titular;
-        if (cantidad >= 0) {
-            this.cantidad = cantidad;
+        if (saldo >= 0) {
+            this.saldo = saldo;
         } else {
-            this.cantidad = 0;
+            this.saldo = 0;
         }
     }
 
@@ -29,19 +29,19 @@ public class CuentaAvanzada {
     }
 
     public double getCantidad() {
-        return cantidad;
+        return saldo;
     }
 
     public void setCantidad(double cantidad) {
         if (cantidad >= 0) {
-            this.cantidad = cantidad;
+            this.saldo = cantidad;
         }
     }
 
     // Método para ingresar dinero en la cuenta
     public void ingresar(double cantidad) {
         if (cantidad > 0) {
-            this.cantidad += cantidad;
+            this.saldo += cantidad;
         }
     }
     
@@ -56,14 +56,14 @@ public class CuentaAvanzada {
     // Método para retirar dinero de la cuenta
     public void retirar(double cantidad) {
         if (tieneSaldo(cantidad)) {
-            this.cantidad -= cantidad;
+            this.saldo -= cantidad;
         } else {
-            this.cantidad = 0;
+            this.saldo = 0;
         }
     }
 
 	private boolean tieneSaldo(double cantidad) {
-		return this.cantidad - cantidad >= 0;
+        return this.saldo - cantidad >= 0;
 	}
 
 
@@ -72,7 +72,7 @@ public class CuentaAvanzada {
     public String toString() {
         return "Cuenta{" +
                 "titular='" + titular + '\'' +
-                ", cantidad=" + cantidad +
+                ", cantidad=" + saldo +
                 '}';
     }
 
