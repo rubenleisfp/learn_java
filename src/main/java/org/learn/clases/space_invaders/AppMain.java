@@ -3,7 +3,7 @@ package org.learn.clases.space_invaders;
 public class AppMain {
 
     public static void main(String[] args) {
-        Nave n1 = new Nave("misterio",50, 10);
+        Nave n1 = new Nave("enterprise",50, 10);
         Nave n2 = new Nave("halcon milenario", 30, 30);
 
         System.out.println(n1);
