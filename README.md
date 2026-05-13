@@ -492,18 +492,18 @@ Ej: “Me gusta mucho la programación” => “programación la mucho gusta Me�
 1. Crea un paquete llamado `org.learn.clases.actividad312`.
 2. Crea una clase llamada `Cuenta` con los siguientes atributos:
     - `titular`: obligatorio.
-    - `cantidad`: opcional, puede tener decimales.
+    - `saldo`: opcional, puede tener decimales.
 3. Crea dos constructores que cumplan lo anterior.
 4. Implementa los métodos `get`, `set` y `toString`.
 5. Métodos especiales:
-    - `ingresar(double cantidad)`: Si la cantidad es negativa, no se hará nada.
-    - `retirar(double cantidad)`: Si el saldo resulta negativo, pasa a ser 0.
+    - `ingresar(double cantidad)`: Ingresa la cantidad en la cuenta, aumentado su saldo. Si la cantidad es negativa, no se hará nada.
+    - `retirar(double cantidad)`: Disminuye la cantidad del saldo. Si el saldo resulta negativo, pasa a ser 0 (es un banco generoso)
 
 Crea una clase `App` para realizar operaciones de ingreso y retiro en una cuenta.
 
 #### **Actividad 313: Transferencias entre Cuentas**
 
-1. En la clase `App`, crea un método para transferir dinero entre cuentas:
+1. En la clase `Cuenta`, crea un método para transferir dinero entre cuentas:
    ```java
    public void transferencia(double cantidad, Cuenta cuentaDestino) {
    ```

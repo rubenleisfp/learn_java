@@ -1,7 +1,7 @@
 package org.learn.clases.actividad312;
 public class Cuenta {
     private String titular;
-    private double cantidad;
+    private double saldo;
 
 
 
@@ -11,7 +11,7 @@ public class Cuenta {
     }
 
     // Constructor con titular y cantidad
-    public Cuenta(String titular, double cantidad) {
+    public Cuenta(String titular, double saldo) {
         //TODO a completar por el alumno
     }
 
@@ -24,11 +24,11 @@ public class Cuenta {
         this.titular = titular;
     }
 
-    public double getCantidad() {
-        return cantidad;
+    public double getSaldo() {
+        return saldo;
     }
 
-    public void setCantidad(double cantidad) {
+    public void setSaldo(double cantidad) {
         //TODO a completar por el alumno
     }
 
@@ -47,7 +47,7 @@ public class Cuenta {
     public String toString() {
         return "Cuenta{" +
                 "titular='" + titular + '\'' +
-                ", cantidad=" + cantidad +
+                ", saldo=" + saldo +
                 '}';
     }
 }
