@@ -1,7 +1,7 @@
 package org.learn.clases.actividad313;
 public class CuentaAvanzada {
     private String titular;
-    private double cantidad;
+    private double saldo;
 
     // Constructor con titular obligatorio y cantidad opcional
     public CuentaAvanzada(String titular) {
@@ -9,7 +9,7 @@ public class CuentaAvanzada {
     }
 
     // Constructor con titular y cantidad
-    public CuentaAvanzada(String titular, double cantidad) {
+    public CuentaAvanzada(String titular, double saldo) {
         //TODO a completar por el alumno
     }
 
@@ -23,7 +23,7 @@ public class CuentaAvanzada {
     }
 
     public double getCantidad() {
-        return cantidad;
+        return saldo;
     }
 
     public void setCantidad(double cantidad) {
@@ -56,7 +56,7 @@ public class CuentaAvanzada {
     public String toString() {
         return "Cuenta{" +
                 "titular='" + titular + '\'' +
-                ", cantidad=" + cantidad +
+                ", cantidad=" + saldo +
                 '}';
     }
 
