@@ -796,10 +796,6 @@ https://www.w3schools.com/java/java_inheritance.asp
 6. Crea una clase `Main` que tenga el método `main()` para probar tu implementación. Crea instancias de cada tipo de empleado, asigna valores y muestra los salarios calculados para cada uno.
 7. Este ejercicio proporciona una buena práctica para comprender los conceptos de herencia en Java y cómo se pueden sobrescribir métodos en las clases derivadas.
 
-7. Obtén las 5 películas mejor valoradas.
-
-8. Muestra en consola la lista final
-
 ### **Grupo 7 - Interfaces**
 
 ### **Actividad 701: Entender Interfaces**
